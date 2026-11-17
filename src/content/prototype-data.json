@@ -1,0 +1,2768 @@
+{
+  "LOGO": {
+    "vw": 4045,
+    "vh": 915,
+    "mx": 579,
+    "my": 8,
+    "mw": 686,
+    "mh": 707,
+    "path": "M4035 189 3928 189 3922 193 3809 493 3794 526 3791 526 3786 519 3655 193 3647 189 3551 189 3538 192 3539 203 3728 679 3648 906 3651 910 3754 911 3761 906 4039 196 4039 192ZM3010 189 3004 195 3003 269 3004 675 3009 680 3106 680 3111 675 3111 195 3105 189ZM1836 262 1807 303 1789 341 1776 389 1773 446 1778 490 1797 547 1824 593 1859 631 1886 652 1919 670 1949 681 1988 689 2036 689 2083 680 2133 658 2173 628 2177 628 2180 632 2180 674 2183 679 2283 680 2287 677 2288 195 2285 190 2185 190 2180 196 2180 236 2177 240 2173 240 2154 224 2127 207 2083 189 2030 180 2004 180 1964 185 1931 195 1893 214 1865 234ZM2022 275 2052 277 2079 285 2109 301 2125 314 2140 330 2157 356 2171 391 2176 416 2176 456 2172 477 2163 503 2143 537 2114 566 2092 580 2065 591 2040 595 2020 595 1992 590 1964 578 1941 562 1923 544 1906 520 1891 486 1884 454 1884 416 1888 393 1896 371 1919 331 1935 314 1962 294 1995 280ZM288 48 251 55 214 66 158 93 111 127 91 146 65 177 32 233 20 263 9 302 4 343 4 392 9 433 29 496 44 526 65 559 79 577 110 609 158 644 212 670 248 681 288 688 353 689 419 679 472 664 493 655 497 651 495 554 493 551 488 551 466 564 430 578 373 591 347 593 302 591 264 581 231 566 212 554 193 539 168 513 143 474 131 446 124 422 119 392 119 340 124 312 134 279 150 246 171 216 196 191 221 173 256 156 287 147 340 144 371 147 405 156 439 171 468 193 473 194 475 191 475 80 471 74 425 57 379 48ZM3471 45 3447 42 3383 44 3363 48 3323 64 3298 81 3273 107 3255 139 3239 187 3235 189 3192 189 3186 193 3186 277 3191 280 3233 280 3239 286 3239 676 3244 681 3342 681 3347 676 3347 286 3353 280 3447 280 3452 275 3452 194 3449 190 3361 189 3356 182 3362 170 3377 154 3401 140 3426 134 3472 134 3474 132 3476 51ZM2403 22 2400 27 2401 677 2405 680 2503 680 2508 675 2508 637 2511 632 2516 633 2553 659 2577 671 2602 680 2647 689 2698 689 2725 684 2763 672 2801 652 2828 632 2852 608 2867 589 2892 546 2910 494 2916 444 2913 391 2900 342 2876 294 2849 259 2811 225 2784 208 2759 196 2718 184 2688 180 2654 180 2602 189 2556 208 2530 224 2517 235 2511 236 2508 232 2507 24 2501 20 2408 20ZM2651 275 2681 277 2705 284 2731 297 2751 312 2770 332 2784 353 2795 377 2804 413 2804 456 2800 476 2788 509 2775 531 2748 561 2729 575 2696 590 2668 595 2628 592 2602 583 2573 565 2551 544 2535 521 2523 496 2515 468 2512 435 2515 403 2520 384 2531 358 2551 328 2576 304 2600 289 2624 280ZM1671 20 1578 21 1570 29 1570 674 1576 680 1673 680 1678 675 1678 27ZM1447 20 1354 21 1349 24 1347 29 1347 674 1353 680 1449 680 1454 675 1454 27ZM3043 4 3022 12 3006 26 2994 49 2992 57 2993 78 3004 102 3020 117 3040 126 3071 126 3097 113 3110 98 3119 75 3118 52 3107 28 3091 13 3069 4Z",
+    "mark": "data:image/webp;base64,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"
+  },
+  "CAPS": [
+    {
+      "id": "brand",
+      "slug": "brand-marketing",
+      "name": "Brand & Marketing",
+      "count": 25,
+      "menu": "Positioning, campaigns and demand generation",
+      "card": "Brand strategy, identity and messaging, plus the campaigns, funnels and analytics that turn attention into pipeline.",
+      "examples": [
+        "Brand strategy",
+        "Performance marketing",
+        "Lead generation"
+      ],
+      "h1": "Brand clarity, and demand you can measure.",
+      "sub": "From positioning and identity to campaigns, funnels and pipeline. Strategy and execution planned together, reported in one place.",
+      "intro": "A strong brand with no distribution goes unseen. Campaigns built on a weak brand cost more and convert less. We work on both: the foundations that make you worth choosing, and the marketing that puts you in front of the right buyers.",
+      "btn2": [
+        "See integrated solutions",
+        "#/solutions"
+      ],
+      "groups": [
+        {
+          "title": "Brand strategy and development",
+          "items": [
+            [
+              "Brand Strategy & Positioning",
+              "Define who you serve, why you win and how you’re different, grounded in audience and competitor research."
+            ],
+            [
+              "Brand Naming & Architecture",
+              "Names and naming systems for companies, products and sub-brands, with a structure that holds as you grow."
+            ],
+            [
+              "Visual Identity & Brand Guidelines",
+              "Logo, typography, colour and a visual system, documented in guidelines your team and partners can follow."
+            ],
+            [
+              "Brand Messaging & Storytelling",
+              "Your brand story, key messages and tone of voice, turned into a framework every channel can use."
+            ],
+            [
+              "Rebranding & Brand Refresh",
+              "Audit what’s working, reposition what isn’t, and plan a transition that brings your customers with you."
+            ],
+            [
+              "Corporate Profile & Presentation Design",
+              "Company profiles, capability decks and sales presentations that make your case clearly."
+            ],
+            [
+              "Product Positioning & Go-to-Market Strategy",
+              "Positioning, audience research and a launch plan that gives a new product a clear route to market."
+            ],
+            [
+              "Integrated Marketing Campaigns",
+              "Campaigns that connect brand, content, digital, PR, communities and live experiences around one idea."
+            ],
+            [
+              "Brand Launch & Market Entry",
+              "Pre-launch, launch-day and post-launch plans for new brands and new markets."
+            ],
+            [
+              "Custom Marketing Strategy",
+              "A plan built around your specific challenge, budget and goals, for when no standard package fits."
+            ]
+          ]
+        },
+        {
+          "title": "Digital marketing and business growth",
+          "items": [
+            [
+              "Social Media Strategy & Management",
+              "Channel strategy, content calendars, publishing and engagement, reviewed against agreed metrics every month."
+            ],
+            [
+              "Performance Marketing & Paid Advertising",
+              "Paid campaigns planned, run and optimised against conversion tracking, with budgets managed transparently."
+            ],
+            [
+              "Search Engine Marketing (SEM)",
+              "Paid search built around buyer intent, from keyword strategy to landing-page conversion."
+            ],
+            [
+              "Email & WhatsApp Marketing",
+              "Newsletters, campaigns and automated sequences, sent only to people who have opted in."
+            ],
+            [
+              "Influencer & Creator Marketing",
+              "Find the right creators, plan the collaboration, approve the content and track what it delivers."
+            ],
+            [
+              "Affiliate & Referral Marketing",
+              "Referral programmes and affiliate partnerships with tracking links and performance-based terms."
+            ],
+            [
+              "Lead Generation & Appointment Setting",
+              "Prospect research, lead funnels and qualification workflows designed to fill your sales calendar with relevant meetings."
+            ],
+            [
+              "B2B Growth & Account-Based Marketing",
+              "Choose target accounts, research decision-makers and run personalised outreach that supports your pipeline."
+            ],
+            [
+              "Sales Funnel & Conversion Optimisation",
+              "Landing pages, journey analysis, conversion testing and remarketing to turn more of your traffic into enquiries."
+            ],
+            [
+              "CRM Setup & Marketing Automation",
+              "CRM configuration, lead routing and lifecycle workflows, so every enquiry is routed, followed up and tracked."
+            ],
+            [
+              "Customer Retention & Loyalty Marketing",
+              "Lifecycle communications, loyalty and referral initiatives that give customers reasons to come back."
+            ],
+            [
+              "E-commerce & App Growth",
+              "Acquisition, app-install and retention campaigns for online stores and apps."
+            ],
+            [
+              "Local & Regional Marketing",
+              "Local search visibility, location pages and regional campaigns for businesses that serve specific cities."
+            ],
+            [
+              "Partnership & Channel Marketing",
+              "Partner outreach, co-marketing and channel campaigns that extend your reach through others."
+            ],
+            [
+              "Marketing Analytics & Attribution",
+              "UTM tracking, dashboards and attribution reporting that show which activity drives results."
+            ]
+          ]
+        }
+      ],
+      "pairs": [
+        [
+          "tech",
+          "for landing pages and CRM builds"
+        ],
+        [
+          "media",
+          "for campaign creative"
+        ],
+        [
+          "pr",
+          "for launches"
+        ]
+      ],
+      "faqs": [
+        [
+          "Do you guarantee leads or return on ad spend?",
+          "No. We commit to the deliverables, reporting and optimisation agreed in scope. Results depend on your market, offer, budget and sales follow-up, and we’ll tell you plainly what the data shows."
+        ],
+        [
+          "Can you work alongside our in-house team or current agency?",
+          "Yes. We can take on a single channel, or coordinate the plan while your team runs parts of it."
+        ],
+        [
+          "Who owns the ad accounts and data?",
+          "You do. Campaigns run in accounts registered to your business, with access granted to us for the engagement."
+        ]
+      ],
+      "title": "Brand Strategy & Digital Marketing",
+      "desc": "Brand strategy, identity, campaigns, performance marketing, lead generation, CRM and analytics, planned together and reported in one place."
+    },
+    {
+      "id": "tech",
+      "slug": "technology",
+      "name": "Technology",
+      "count": 15,
+      "menu": "Websites, apps, SaaS, AI and automation",
+      "card": "Websites, e-commerce, web and mobile apps, AI integrations, and the infrastructure, testing and maintenance behind them.",
+      "examples": [
+        "Business websites",
+        "Mobile apps",
+        "AI integration"
+      ],
+      "h1": "Websites, apps and systems, built to launch and built to last.",
+      "sub": "Design, development, integrations, deployment and maintenance, with clear ownership of your code and data from day one.",
+      "intro": "Good technology work is more than a launch date. It means a product your team can update, systems that talk to each other, and someone accountable when something breaks. We scope carefully, build in milestones you approve, and document everything we hand over.",
+      "btn2": [
+        "See Digital Transformation",
+        "#/solutions/digital-transformation"
+      ],
+      "groups": [
+        {
+          "title": "Websites and commerce",
+          "items": [
+            [
+              "Corporate & Business Website Development",
+              "Responsive, fast business websites with a content management system your team can update.",
+              "#/services/business-website-development"
+            ],
+            [
+              "Landing Page & Conversion Website Development",
+              "Campaign, launch and lead-generation pages designed for one job: conversion."
+            ],
+            [
+              "E-commerce & Marketplace Development",
+              "Catalogues, carts, checkout, marketplace workflows and order management."
+            ],
+            [
+              "Event Website, Ticketing & Registration Platforms",
+              "Event sites with ticketing, registration and QR check-in built in."
+            ]
+          ]
+        },
+        {
+          "title": "Products and applications",
+          "items": [
+            [
+              "Web Application & SaaS Development",
+              "Dashboards, user accounts, subscriptions and custom workflows, built as maintainable software."
+            ],
+            [
+              "Android & iOS App Development",
+              "Native or cross-platform mobile apps, chosen to fit your product, budget and roadmap."
+            ],
+            [
+              "UI/UX Design & Prototyping",
+              "Research, wireframes, interface design and clickable prototypes, tested with users before development starts."
+            ],
+            [
+              "Backend, Database & API Development",
+              "The business logic, databases, authentication and APIs your products and integrations depend on."
+            ]
+          ]
+        },
+        {
+          "title": "Systems and automation",
+          "items": [
+            [
+              "AI Integration & Business Automation",
+              "Practical AI in your workflows: document processing, support automation and productivity tools."
+            ],
+            [
+              "CRM, ERP & Internal Business Systems",
+              "CRM customisation, internal dashboards and digitised processes that fit how your team works."
+            ],
+            [
+              "Payment, Booking & Third-Party Integrations",
+              "Payment gateways, calendars, booking, email and messaging connected to your product."
+            ]
+          ]
+        },
+        {
+          "title": "Infrastructure and care",
+          "items": [
+            [
+              "Cloud Infrastructure & Deployment",
+              "Hosting, domains, DNS, SSL, staging and production environments, set up properly from the start."
+            ],
+            [
+              "DevOps, CI/CD & Quality Assurance",
+              "Testing, deployment pipelines, version control and monitoring for reliable releases."
+            ],
+            [
+              "Website & Application Maintenance",
+              "Updates, fixes, backups, security patches and performance monitoring under a clear support agreement."
+            ],
+            [
+              "Security, Performance & Accessibility Audits",
+              "Structured reviews of security, speed and accessibility, with a prioritised list of fixes."
+            ]
+          ]
+        }
+      ],
+      "pairs": [
+        [
+          "brand",
+          "for launch campaigns"
+        ],
+        [
+          "fos",
+          "for CRM and automation"
+        ],
+        [
+          "events",
+          "for ticketing and registration"
+        ]
+      ],
+      "faqs": [
+        [
+          "Who owns the code?",
+          "Ownership is set out in your contract before work starts. Our standard terms [transfer code and IP ownership to you on full payment — confirm in contract template], and we document every third-party dependency and licence at handover."
+        ],
+        [
+          "What happens after launch?",
+          "You can choose a maintenance agreement covering updates, backups, security patches and support, with response times agreed in writing."
+        ],
+        [
+          "How do you price development?",
+          "Defined scopes are priced as fixed projects paid in milestones. Evolving products can run on a monthly or time-and-materials basis. Either way, you see the plan before you pay."
+        ]
+      ],
+      "title": "Website, App & SaaS Development",
+      "desc": "Business websites, e-commerce, web and mobile apps, AI integration, cloud deployment and maintenance, with clear ownership of your code and data."
+    },
+    {
+      "id": "media",
+      "slug": "media-content",
+      "name": "Media & Content",
+      "count": 12,
+      "menu": "Podcasts, video and founder content",
+      "card": "Personal branding, podcasts from concept to publishing, video production and content repurposing.",
+      "examples": [
+        "Podcast production",
+        "Founder video",
+        "Content repurposing"
+      ],
+      "h1": "Your expertise, produced and put to work.",
+      "sub": "Personal branding, podcasts, video and content, from concept and studio setup to editing, repurposing and publishing.",
+      "intro": "The people who run businesses usually have the most valuable things to say and the least time to say them. We build the format, run the production and turn each session into content for every channel, so your time goes into ideas rather than editing timelines.",
+      "btn2": [
+        "See Founder Growth",
+        "#/solutions/founder-growth"
+      ],
+      "groups": [
+        {
+          "title": "Personal branding",
+          "items": [
+            [
+              "Personal Branding Strategy",
+              "Positioning for founders, CEOs, investors and professionals, built around real expertise rather than a persona."
+            ],
+            [
+              "Founder Content & LinkedIn Ghostwriting",
+              "Thought leadership in your voice: narratives, posts and an editorial calendar you approve."
+            ],
+            [
+              "Personal Website & Digital Profile",
+              "A personal site with your biography, portfolio, speaking profile and a clear way to get in touch."
+            ],
+            [
+              "Founder & Executive Video Shoots",
+              "Interviews, founder stories and executive messages, filmed professionally."
+            ]
+          ]
+        },
+        {
+          "title": "Podcasts",
+          "items": [
+            [
+              "Podcast Concept & Show Development",
+              "Name, format, audience, episode structure and a launch plan for a show with a clear purpose."
+            ],
+            [
+              "Podcast Studio Design & Setup",
+              "Acoustics, lighting, cameras, microphones and set design for a studio in your own space."
+            ],
+            [
+              "Podcast Recording & Production",
+              "Studio or remote, single or multi-camera, with recording run by a production crew."
+            ],
+            [
+              "Podcast Editing & Publishing",
+              "Audio and video editing, mixing, colour grading, artwork and thumbnails, published to your channels."
+            ]
+          ]
+        },
+        {
+          "title": "Content and production",
+          "items": [
+            [
+              "Content Repurposing & Content Day",
+              "One recording, interview or webinar turned into a library of short videos, posts and carousels."
+            ],
+            [
+              "Commercial Photography & Video Production",
+              "Brand films, product shoots, corporate videos and campaign creative."
+            ],
+            [
+              "Social Content & Creative Design",
+              "Reels, Shorts, carousels, graphics and motion design, made for each platform."
+            ],
+            [
+              "Newsletter & Editorial Production",
+              "Founder newsletters and company updates, written and produced on an editorial calendar."
+            ]
+          ]
+        }
+      ],
+      "pairs": [
+        [
+          "pr",
+          "for guest bookings and press"
+        ],
+        [
+          "network",
+          "for distribution"
+        ],
+        [
+          "events",
+          "for podcast lounges"
+        ]
+      ],
+      "faqs": [
+        [
+          "Do we need our own studio?",
+          "No. We can record in a partner studio, at your office or remotely. Studio setup suits teams that record regularly."
+        ],
+        [
+          "How much of my time does founder content take?",
+          "We design the process around a recurring interview and an approval step, so your time goes into ideas and sign-off, not drafting."
+        ],
+        [
+          "Who owns the content?",
+          "You own the final approved content. Terms for raw footage and project files are agreed in your contract."
+        ]
+      ],
+      "title": "Podcast Production & Founder Content",
+      "desc": "Personal branding, podcast development, studio setup, recording, editing, video production and content repurposing for founders and businesses."
+    },
+    {
+      "id": "pr",
+      "slug": "pr-reputation",
+      "name": "PR & Reputation",
+      "count": 10,
+      "menu": "Media relations, thought leadership and trust",
+      "card": "Media relations, founder and corporate PR, thought leadership, reputation monitoring and AI search visibility.",
+      "examples": [
+        "Founder PR",
+        "Press kits",
+        "Reputation monitoring"
+      ],
+      "h1": "Earn attention. Protect trust.",
+      "sub": "Media relations, founder visibility, thought leadership and reputation monitoring, run with integrity and reported honestly.",
+      "intro": "Credibility can’t be bought, but it can be built. We find the stories that matter to the publications, podcasts and stages your audience follows, prepare you to tell them well, and keep watch over how your brand is represented, including in AI-powered search.",
+      "btn2": [
+        "See Corporate Media",
+        "#/solutions/corporate-media"
+      ],
+      "groups": [
+        {
+          "title": "Media and visibility",
+          "items": [
+            [
+              "Digital PR & Media Relations",
+              "Media research, journalist outreach and pitching for stories that fit what each publication covers."
+            ],
+            [
+              "Founder & Executive PR",
+              "Profiles, expert commentary and interview pitching that build a leader’s public credibility."
+            ],
+            [
+              "Corporate & Product PR",
+              "Announcements for product launches, milestones and company news."
+            ],
+            [
+              "Event PR & Publicity",
+              "Event and speaker announcements, media invitations and press materials that support your event."
+            ],
+            [
+              "Press Release & Media Kit Production",
+              "Press releases, fact sheets, boilerplate, executive bios and press kits journalists can use."
+            ],
+            [
+              "Podcast Guest Booking & Media Appearances",
+              "Find relevant shows, pitch you as a guest and prepare you for the conversation."
+            ],
+            [
+              "Thought Leadership & Speaking Opportunities",
+              "Expert articles, conference speaker applications and keynote opportunities."
+            ]
+          ]
+        },
+        {
+          "title": "Reputation and trust",
+          "items": [
+            [
+              "Reputation Monitoring & Review Intelligence",
+              "Track mentions and reviews, analyse what people are saying and set up response workflows."
+            ],
+            [
+              "Crisis Communication Planning",
+              "Playbooks, escalation paths and holding statements prepared before you need them, coordinated with legal and specialist advisers where required."
+            ],
+            [
+              "AI Search Visibility Monitoring",
+              "Review how AI-powered search experiences describe your brand, check the facts and identify ways to strengthen how you’re represented."
+            ]
+          ]
+        }
+      ],
+      "pairs": [
+        [
+          "media",
+          "for podcasts and video"
+        ],
+        [
+          "brand",
+          "for launches"
+        ],
+        [
+          "events",
+          "for event publicity"
+        ]
+      ],
+      "faqs": [
+        [
+          "Can you guarantee coverage?",
+          "No, and be wary of anyone who does. Journalists and editors decide what they publish. We commit to the research, angles, materials and outreach, and we report on every campaign’s activity and responses."
+        ],
+        [
+          "Do you arrange paid placements?",
+          "Only when you ask for them, and they are always labelled as sponsored. We never present paid content as earned coverage."
+        ],
+        [
+          "Do you handle a live crisis?",
+          "We help you prepare before one happens. In a live situation, we coordinate communications alongside your legal and specialist advisers."
+        ]
+      ],
+      "title": "PR & Reputation Management",
+      "desc": "Digital PR, founder and corporate PR, thought leadership, podcast guest booking, reputation monitoring and AI search visibility, reported honestly."
+    },
+    {
+      "id": "fos",
+      "slug": "founder-os",
+      "name": "Founder OS",
+      "count": 10,
+      "menu": "Hiring, CRM, processes and operating systems",
+      "card": "Goals, operating systems, SOPs, hiring coordination, sales operations and internal automation.",
+      "examples": [
+        "Founder command centre",
+        "Recruitment coordination",
+        "SOPs"
+      ],
+      "h1": "The operating system behind a growing company.",
+      "sub": "Goals, processes, hiring, CRM and automation, set up so your team can run without every decision routing through you.",
+      "intro": "Most early companies run on the founder’s memory. That works until it doesn’t: follow-ups slip, new hires take months to find their feet, and every question lands on one desk. We put the structure in place: clear goals, documented processes, a hiring pipeline and the tools to see it all in one view.",
+      "btn2": [
+        "See Founder OS Setup",
+        "#/solutions/founder-os-setup"
+      ],
+      "groups": [
+        {
+          "title": "Strategy and systems",
+          "items": [
+            [
+              "Founder Strategy & Goal Management",
+              "Quarterly goals, OKRs and execution reviews that keep the company focused on what matters most."
+            ],
+            [
+              "Founder Operating System & Command Centre",
+              "One workspace for company priorities, sales, team tasks, marketing, operations and reporting."
+            ],
+            [
+              "SOP & Process Documentation",
+              "Standard operating procedures, checklists and a knowledge base built around how your team works."
+            ],
+            [
+              "Business Automation & Knowledge Management",
+              "Automated internal workflows, meeting documentation and operational dashboards."
+            ]
+          ]
+        },
+        {
+          "title": "People and hiring",
+          "items": [
+            [
+              "Recruitment Strategy & Job Descriptions",
+              "Hiring plans, role definitions and scorecards, ready before the first job post goes live."
+            ],
+            [
+              "Candidate Sourcing & Recruitment Coordination",
+              "Candidate research, application workflows, interview scheduling and pipeline management."
+            ],
+            [
+              "Onboarding & Team Enablement",
+              "Onboarding plans, documentation and training workflows, with clear responsibilities from day one."
+            ],
+            [
+              "Fractional Specialist & Talent Network",
+              "We source and qualify fractional executives, consultants and freelancers when you need senior skills without a full-time hire."
+            ]
+          ]
+        },
+        {
+          "title": "Sales and suppliers",
+          "items": [
+            [
+              "Sales Operations & Pipeline Management",
+              "Sales workflows, follow-up discipline, CRM hygiene and pipeline reporting."
+            ],
+            [
+              "Vendor, Agency & Procurement Coordination",
+              "Vendor research, quotation comparison, supplier records and delivery coordination."
+            ]
+          ]
+        }
+      ],
+      "pairs": [
+        [
+          "tech",
+          "for custom systems and integrations"
+        ],
+        [
+          "brand",
+          "for CRM and lead flow"
+        ],
+        [
+          "media",
+          "for content operations"
+        ]
+      ],
+      "faqs": [
+        [
+          "Are you a recruitment agency?",
+          "We support your hiring process: planning, sourcing coordination, scheduling and pipeline management. Hiring decisions always stay with you."
+        ],
+        [
+          "Which tools do you use?",
+          "We work with the tools you already have where possible, and recommend new ones only when there’s a clear reason. [List your preferred stack once decided.]"
+        ],
+        [
+          "Do we need all of this at once?",
+          "No. You can start with one gap, such as sales follow-up or hiring, and add the rest as you grow."
+        ]
+      ],
+      "title": "Founder Operations, Hiring & CRM",
+      "desc": "Goals, SOPs, hiring coordination, CRM, sales operations and automation, so your company runs without every decision routing through you."
+    },
+    {
+      "id": "events",
+      "slug": "events",
+      "name": "Events",
+      "count": 13,
+      "menu": "Strategy, production and event-day execution",
+      "card": "Concept, venue, design, production, ticketing, audience, sponsorship and event-day operations.",
+      "examples": [
+        "End-to-end management",
+        "Ticketing and check-in",
+        "Sponsorship support"
+      ],
+      "h1": "Events planned with strategy, run with precision.",
+      "sub": "From concept and venue to production, ticketing, audience and event-day operations. One team accountable from brief to wrap.",
+      "intro": "An event is a product with a fixed launch date. It needs a concept worth attending, an audience that shows up, vendors who deliver on time and someone who owns every detail on the day. We plan, coordinate and run it, then turn what happened into content, leads and a report.",
+      "btn2": [
+        "See Event Growth",
+        "#/solutions/event-growth"
+      ],
+      "groups": [
+        {
+          "title": "Planning and design",
+          "items": [
+            [
+              "End-to-End Event Management",
+              "Planning, budgeting, vendor coordination, event-day operations and post-event closure, managed by one lead."
+            ],
+            [
+              "Event Concept, Theme & Experience Design",
+              "Positioning, format, agenda and audience journey, designed around what the event needs to achieve."
+            ],
+            [
+              "Venue Discovery & Coordination",
+              "Venue research, comparisons, site visits, availability checks and negotiation support."
+            ],
+            [
+              "Event Branding, Stage & Spatial Design",
+              "Event identity, stage concepts, signage, venue layouts, booths and branded environments."
+            ]
+          ]
+        },
+        {
+          "title": "Production and operations",
+          "items": [
+            [
+              "Event Production & Fabrication Coordination",
+              "AV, LED, sound, lighting, structures, fabrication and furniture, delivered through qualified production vendors."
+            ],
+            [
+              "Speaker, Artist, Guest & VIP Management",
+              "Speaker coordination, artist logistics, guest lists and VIP hospitality."
+            ],
+            [
+              "Event Registration, Ticketing & Check-in",
+              "Ticket categories, registration, QR check-in and live guest tracking."
+            ],
+            [
+              "Event Logistics, Staffing & Operations",
+              "Staffing, volunteers, vendor schedules, run-of-show and event-day checklists."
+            ]
+          ]
+        },
+        {
+          "title": "Audience, sponsors and follow-up",
+          "items": [
+            [
+              "Event Marketing & Audience Acquisition",
+              "Campaigns, content and outreach that build registrations from the right audience."
+            ],
+            [
+              "Sponsorship & Exhibitor Acquisition Support",
+              "Sponsor prospecting, sponsorship proposals and exhibitor outreach."
+            ],
+            [
+              "Event Invitation & RSVP Automation",
+              "Personalised digital invitations, RSVP pages, confirmations and reminders."
+            ],
+            [
+              "Event Photography, Video & Live Content",
+              "Event coverage, interviews, highlights and live social content."
+            ],
+            [
+              "Event Reporting & Post-Event Follow-up",
+              "Attendance analysis, sponsor deliverables, feedback, lead handover and follow-up campaigns."
+            ]
+          ]
+        }
+      ],
+      "pairs": [
+        [
+          "tech",
+          "for event websites and ticketing"
+        ],
+        [
+          "pr",
+          "for event publicity"
+        ],
+        [
+          "network",
+          "for post-event distribution"
+        ]
+      ],
+      "faqs": [
+        [
+          "Can you handle just part of our event?",
+          "Yes. You can bring us in for a single element, such as venue, production or ticketing, or for the whole event."
+        ],
+        [
+          "Who is responsible for permits, safety and insurance?",
+          "We set this out in writing before any vendor is booked: which permits, safety measures and insurance apply, and who holds each one."
+        ],
+        [
+          "Do you guarantee registrations or sponsors?",
+          "No. We commit to the campaign plan, outreach and reporting agreed in your scope, and we share progress against targets throughout."
+        ]
+      ],
+      "title": "Event Management & Production",
+      "desc": "End-to-end event management: concept, venue, production, ticketing, audience acquisition, sponsorship support and event-day operations."
+    },
+    {
+      "id": "network",
+      "slug": "network-experiences",
+      "name": "Network & Experiences",
+      "count": 15,
+      "menu": "Distribution partners, communities and brand experiences",
+      "card": "Distribution through creators, publishers and communities, plus curated events and brand activations.",
+      "examples": [
+        "Creator and publisher distribution",
+        "Community activation",
+        "Brand activations"
+      ],
+      "h1": "Put your story where your audience already is.",
+      "sub": "Content distribution through creators, publishers and communities, plus curated events and brand experiences that bring audiences together.",
+      "intro": "Publishing content is not the same as distributing it. Your audience already gathers in newsletters, podcasts, creator channels and professional communities. We find the ones that fit, agree terms with the people who run them, and connect every placement to something you can track.",
+      "btn2": [
+        "See Event Growth",
+        "#/solutions/event-growth"
+      ],
+      "groups": [
+        {
+          "title": "Content distribution and community",
+          "items": [
+            [
+              "Multi-Platform Content Distribution",
+              "Approved content published across the social, editorial and digital channels that suit your audience."
+            ],
+            [
+              "Creator & Publisher Distribution",
+              "Placements coordinated with relevant creators, publishers and distribution partners."
+            ],
+            [
+              "Community Distribution & Activation",
+              "Permission-based distribution in relevant WhatsApp, Telegram, LinkedIn, Facebook, Discord and industry communities. Never spam."
+            ],
+            [
+              "Founder & Startup Community Marketing",
+              "Reach founders through incubators, accelerators, E-cells and entrepreneurship communities."
+            ],
+            [
+              "Newsletter & Podcast Distribution",
+              "Newsletter placements, podcast promotion and cross-promotion with aligned audiences."
+            ],
+            [
+              "Event Content Distribution",
+              "Speaker clips, highlights and interviews distributed to extend an event’s reach after the day."
+            ],
+            [
+              "Distribution Campaign Management",
+              "Audience research, channel selection, scheduling, partner coordination and reporting, run as one campaign."
+            ],
+            [
+              "Creator, Media & Community Partner Sourcing",
+              "Partners found and qualified by audience, geography, industry and budget."
+            ],
+            [
+              "Content-to-Lead Distribution",
+              "Distribution connected to landing pages and lead capture, so reach turns into trackable enquiries."
+            ],
+            [
+              "Distribution Analytics & Attribution",
+              "Link tracking, partner performance and referral traffic, reported by campaign."
+            ]
+          ]
+        },
+        {
+          "title": "Experiences",
+          "items": [
+            [
+              "Curated Conferences & Founder Meetups",
+              "Concept, speaker curation, registration, partners and delivery for focused gatherings."
+            ],
+            [
+              "Owned Event IP Development",
+              "Collabify’s own repeatable event formats, each with its own audience, programme and sponsorship model.",
+              null,
+              "Coming soon"
+            ],
+            [
+              "Brand Activations & Experiential Marketing",
+              "Pop-ups, roadshows, campus activations, sampling and interactive installations."
+            ],
+            [
+              "Event-to-Media & Podcast Lounges",
+              "Podcast and interview lounges at events that turn conversations into content."
+            ]
+          ]
+        },
+        {
+          "title": "Platform",
+          "items": [
+            [
+              "Collabify Distribution Marketplace",
+              "A platform connecting brands with creators, communities, newsletters and publishers for managed campaigns. Not available yet: today we run these campaigns as a managed service.",
+              null,
+              "Planned"
+            ]
+          ]
+        }
+      ],
+      "pairs": [
+        [
+          "media",
+          "for the content itself"
+        ],
+        [
+          "brand",
+          "for landing pages and funnels"
+        ],
+        [
+          "events",
+          "for live moments worth distributing"
+        ]
+      ],
+      "faqs": [
+        [
+          "Do you post in communities without permission?",
+          "No. We distribute only where community owners have agreed, and sponsored posts are always disclosed."
+        ],
+        [
+          "Do you have an existing creator network?",
+          "We source and qualify partners for each campaign based on audience fit, rather than pushing a fixed roster. [Update once your partner database is established.]"
+        ],
+        [
+          "Is the marketplace live?",
+          "Not yet. Register interest below and we’ll share updates as it develops."
+        ]
+      ],
+      "marketplace": true,
+      "title": "Content Distribution & Brand Experiences",
+      "desc": "Permission-based distribution through creators, publishers, newsletters and communities, plus curated events and brand activations."
+    }
+  ],
+  "PROGRAMMES": [
+    {
+      "slug": "founder-growth",
+      "name": "Founder Growth",
+      "caps": [
+        "media",
+        "pr",
+        "brand",
+        "network"
+      ],
+      "for": "Founders, CEOs, investors and consultants who want to be known for their expertise.",
+      "line": "Build a public presence around what you know, and the systems to follow up on the conversations it starts.",
+      "includes": [
+        "Personal brand strategy",
+        "Personal website",
+        "Podcast",
+        "Founder content",
+        "Distribution",
+        "Founder PR",
+        "CRM follow-up"
+      ]
+    },
+    {
+      "slug": "startup-launch",
+      "name": "Startup Launch",
+      "caps": [
+        "brand",
+        "tech",
+        "pr"
+      ],
+      "for": "Startups preparing to launch a company or a first product.",
+      "line": "Launch with a clear brand, a working product presence and a pipeline from day one.",
+      "includes": [
+        "Brand identity",
+        "Website",
+        "App development where needed",
+        "[SEO]",
+        "Launch campaign",
+        "Launch PR",
+        "Lead generation"
+      ]
+    },
+    {
+      "slug": "event-growth",
+      "name": "Event Growth",
+      "caps": [
+        "events",
+        "tech",
+        "network"
+      ],
+      "for": "Event organisers, conference and exhibition companies, and brands hosting their own events.",
+      "line": "From concept to event day to follow-up, with one team accountable for the whole event.",
+      "includes": [
+        "Event concept",
+        "Event branding",
+        "Event website",
+        "Invitations and RSVP",
+        "Ticketing",
+        "Audience acquisition",
+        "Sponsor outreach",
+        "Production",
+        "Content distribution"
+      ]
+    },
+    {
+      "slug": "digital-transformation",
+      "name": "Digital Transformation",
+      "caps": [
+        "tech",
+        "brand"
+      ],
+      "for": "SMEs and established businesses running on spreadsheets, disconnected tools or an outdated website.",
+      "line": "Modern systems your team can run, connected and measured, with support after launch.",
+      "includes": [
+        "Website or app",
+        "CRM",
+        "Automation",
+        "Analytics",
+        "Ongoing maintenance"
+      ]
+    },
+    {
+      "slug": "corporate-media",
+      "name": "Corporate Media",
+      "caps": [
+        "media",
+        "pr",
+        "network"
+      ],
+      "for": "Corporate brands and leadership teams building authority in their industry.",
+      "line": "A media engine for your leadership: shows, films and thought leadership, distributed and amplified.",
+      "includes": [
+        "Podcast",
+        "Video production",
+        "Executive branding",
+        "Thought leadership",
+        "PR",
+        "Content distribution"
+      ]
+    },
+    {
+      "slug": "founder-os-setup",
+      "name": "Founder OS Setup",
+      "caps": [
+        "fos",
+        "media"
+      ],
+      "for": "Founders whose company has outgrown their memory and inbox.",
+      "line": "The workflows, pipeline and dashboards that let your team run without you in every loop.",
+      "includes": [
+        "Business workflows",
+        "CRM and sales operations",
+        "Hiring coordination",
+        "Content operations",
+        "Reporting",
+        "Automation"
+      ]
+    }
+  ],
+  "SEGMENTS": [
+    [
+      "Startup founders and early-stage startups",
+      "You’re building the company and the brand at the same time.",
+      "Brand, website or app, launch campaign and a founder presence, delivered as one plan so you can stay focused on the product.",
+      [
+        [
+          "Startup Launch",
+          "#/solutions/startup-launch"
+        ],
+        [
+          "Founder Growth",
+          "#/solutions/founder-growth"
+        ]
+      ]
+    ],
+    [
+      "Growth-stage startups and B2B companies",
+      "You have traction. Now you need a repeatable pipeline.",
+      "Account-based marketing, lead generation, CRM, sales operations and PR that support a growing sales team.",
+      [
+        [
+          "Brand & Marketing",
+          "#/capabilities/brand-marketing"
+        ],
+        [
+          "Founder OS",
+          "#/capabilities/founder-os"
+        ]
+      ]
+    ],
+    [
+      "SMEs and established businesses",
+      "The business works. The website, systems and marketing haven’t kept up.",
+      "A modern website, connected systems, automation and marketing that brings in enquiries.",
+      [
+        [
+          "Digital Transformation",
+          "#/solutions/digital-transformation"
+        ]
+      ]
+    ],
+    [
+      "Corporate brands and executives",
+      "Your leaders have authority. Your market should hear it.",
+      "Podcasts, executive video, thought leadership, PR and events, run as one media programme.",
+      [
+        [
+          "Corporate Media",
+          "#/solutions/corporate-media"
+        ]
+      ]
+    ],
+    [
+      "Event organisers, conference and exhibition companies",
+      "One date, dozens of vendors and an audience to build.",
+      "Concept, production, ticketing, audience acquisition, sponsorship support and event-day operations under one lead.",
+      [
+        [
+          "Event Growth",
+          "#/solutions/event-growth"
+        ]
+      ]
+    ],
+    [
+      "Podcast hosts and media businesses",
+      "Great conversations deserve production and distribution to match.",
+      "Show development, studio setup, recording, editing, repurposing, guest booking and distribution.",
+      [
+        [
+          "Media & Content",
+          "#/capabilities/media-content"
+        ]
+      ]
+    ],
+    [
+      "Institutions and ecosystem organisations",
+      "Incubators, universities, E-cells and industry bodies that need to reach founders and students.",
+      "Curated events, community activation, content and campaigns for programmes and cohorts.",
+      [
+        [
+          "Network & Experiences",
+          "#/capabilities/network-experiences"
+        ],
+        [
+          "Events",
+          "#/capabilities/events"
+        ]
+      ]
+    ],
+    [
+      "Companies launching products or entering new markets",
+      "A new product or market needs positioning, attention and first customers.",
+      "Go-to-market strategy, launch campaigns, PR, brand activations and lead generation.",
+      [
+        [
+          "Startup Launch",
+          "#/solutions/startup-launch"
+        ],
+        [
+          "Brand & Marketing",
+          "#/capabilities/brand-marketing"
+        ]
+      ]
+    ]
+  ],
+  "PROCESS": [
+    [
+      "Discover",
+      [
+        [
+          "Qualify",
+          "A short form or call to check we’re the right fit before anyone’s time is spent."
+        ],
+        [
+          "Discovery call",
+          "We learn your goals, audience, constraints and what’s already in place."
+        ],
+        [
+          "Requirements",
+          "We write down what you need, so both sides agree on the brief."
+        ]
+      ]
+    ],
+    [
+      "Scope",
+      [
+        [
+          "Feasibility review",
+          "We check what’s achievable within your timeline and budget, and flag dependencies early."
+        ],
+        [
+          "Proposal",
+          "Deliverables, timeline, exclusions, price and reporting, in writing."
+        ],
+        [
+          "Agreement",
+          "Contract, payment milestones and ownership terms signed before work begins."
+        ]
+      ]
+    ],
+    [
+      "Deliver",
+      [
+        [
+          "Onboarding",
+          "Access, assets and contacts gathered in one structured handover."
+        ],
+        [
+          "Project plan",
+          "Named owners, milestones and approval points, shared with you."
+        ],
+        [
+          "Execution and quality checks",
+          "Specialists deliver; your project lead reviews every output against a checklist."
+        ],
+        [
+          "Review and approval",
+          "Nothing goes live without your sign-off."
+        ],
+        [
+          "Launch or delivery",
+          "Final assets, the live site, the published campaign or the event itself."
+        ]
+      ]
+    ],
+    [
+      "Report and grow",
+      [
+        [
+          "Reporting and handover",
+          "What was delivered, what it achieved and every file and credential you own."
+        ],
+        [
+          "What’s next",
+          "Maintenance, a renewal or the next phase, only if it makes sense for you."
+        ]
+      ]
+    ]
+  ],
+  "ENGAGEMENTS": [
+    [
+      "Fixed-price project",
+      "Brand identity, websites, studio setup, defined campaigns"
+    ],
+    [
+      "Milestone-based development",
+      "Apps, web applications, SaaS and larger technology builds"
+    ],
+    [
+      "Monthly retainer",
+      "Social media, content, PR, performance marketing, founder operations"
+    ],
+    [
+      "Production package",
+      "Podcast seasons, content days, video shoots"
+    ],
+    [
+      "Maintenance and support plan",
+      "Websites and applications after launch"
+    ],
+    [
+      "Event management fee",
+      "Event planning, coordination and production management"
+    ]
+  ],
+  "PARTNER_TYPES": [
+    [
+      "Freelance specialists",
+      "Designers, developers, writers, editors, performance marketers, PR professionals"
+    ],
+    [
+      "Studios and production houses",
+      "Podcast studios, video production teams, photographers, motion designers"
+    ],
+    [
+      "Event vendors",
+      "Venues, AV and LED, fabrication, staffing, hospitality and logistics"
+    ],
+    [
+      "Creators and publishers",
+      "Creators, newsletter owners, podcast hosts and niche publications"
+    ],
+    [
+      "Community builders",
+      "Admins of professional, founder, student and industry communities"
+    ],
+    [
+      "Fractional experts",
+      "Fractional CMOs, CTOs, COOs, HR leaders and senior consultants"
+    ]
+  ],
+  "CONTACT": {
+    "email": "[email]",
+    "phone": "[phone]",
+    "city": "[city]"
+  },
+  "CUSTOM_SERVICE": [
+    "Custom Integrated Growth & Technology Solutions",
+    "Bespoke projects combining marketing, technology, content, PR, hiring, distribution and event execution, scoped around your problem."
+  ],
+  "TEAM_SIZE": 42,
+  "CASES": [
+    {
+      "client": "[Client name]",
+      "industry": "[Industry]",
+      "used": "[Programme or services used]",
+      "challenge": "[The problem, in one sentence]",
+      "did": "[What we delivered]",
+      "result": "[A measured outcome the client has approved for publication]"
+    },
+    {
+      "client": "[Client name]",
+      "industry": "[Industry]",
+      "used": "[Programme or services used]",
+      "challenge": "[The problem, in one sentence]",
+      "did": "[What we delivered]",
+      "result": "[A measured outcome the client has approved for publication]"
+    },
+    {
+      "client": "[Client name]",
+      "industry": "[Industry]",
+      "used": "[Programme or services used]",
+      "challenge": "[The problem, in one sentence]",
+      "did": "[What we delivered]",
+      "result": "[A measured outcome the client has approved for publication]"
+    }
+  ],
+  "LOGO_SLOTS": 6,
+  "TESTIMONIAL": {
+    "quote": "[A short quote from a client, used with their written approval.]",
+    "who": "[Name]",
+    "role": "[Role, Company]"
+  },
+  "COMMUNITY": {
+    "plans": [
+      {
+        "id": "monthly",
+        "name": "Monthly",
+        "price": "[₹X]",
+        "per": "per month",
+        "note": "[Billing and GST details]",
+        "features": [
+          "All member chat channels",
+          "Member directory",
+          "[Member-only sessions, if any]"
+        ]
+      },
+      {
+        "id": "annual",
+        "name": "Annual",
+        "price": "[₹Y]",
+        "per": "per year",
+        "note": "[Annual saving, if any]",
+        "features": [
+          "Everything in Monthly",
+          "[Introductions to relevant members]",
+          "[Priority access to Collabify events]"
+        ],
+        "featured": true
+      }
+    ],
+    "paymentLinks": {
+      "monthly": "[Razorpay or Stripe payment link for Monthly]",
+      "annual": "[Razorpay or Stripe payment link for Annual]"
+    },
+    "confirmTime": "[one working day]",
+    "refund": "[Refund policy: for example, refunds within 7 days of joining]"
+  },
+  "CHANNELS": [
+    [
+      "introductions",
+      "Introductions",
+      "Say hello: who you are, what you’re building and what you need."
+    ],
+    [
+      "general",
+      "General",
+      "Anything that doesn’t fit somewhere else."
+    ],
+    [
+      "growth",
+      "Marketing & growth",
+      "Brand, campaigns, content and distribution."
+    ],
+    [
+      "tech",
+      "Tech & product",
+      "Websites, apps, AI and the tools you use."
+    ],
+    [
+      "hiring",
+      "Hiring & talent",
+      "Open roles, referrals and freelancers."
+    ],
+    [
+      "collabs",
+      "Collaborations",
+      "Partnerships, co-marketing and joint projects."
+    ],
+    [
+      "events",
+      "Events & meetups",
+      "Meetups, conferences and things worth attending."
+    ]
+  ],
+  "COMM_RULES": [
+    [
+      "Be useful",
+      "Share what you know, ask good questions and answer when you can."
+    ],
+    [
+      "No spam or cold selling",
+      "Promote your work only in Collaborations, and only when it helps the conversation."
+    ],
+    [
+      "Keep it private",
+      "What members share stays in the community. Don’t copy messages or member details elsewhere."
+    ],
+    [
+      "Disclose your interests",
+      "Say so when you recommend something you’re paid for or involved in."
+    ],
+    [
+      "Moderated",
+      "We remove messages and members that break these rules. [Confirm what happens to fees in this case.]"
+    ]
+  ],
+  "AFFILIATE": {
+    "rate": "[X%]",
+    "basis": "[of the first payment from each client you refer]",
+    "windowDays": 90,
+    "payout": "[Monthly, by UPI or bank transfer, after your client’s payment clears]",
+    "minimum": "[₹ minimum payout]"
+  },
+  "WHITELABEL": {
+    "pricing": "[Partner pricing: for example, a fixed discount on our standard rates, agreed in your partner contract.]",
+    "minimum": "[No minimum, or state your minimum commitment.]"
+  },
+  "BLOG_CATS": [
+    "Growth & marketing",
+    "Technology",
+    "Media & content",
+    "PR & reputation",
+    "Founder operations",
+    "Events",
+    "Community"
+  ],
+  "OWN_EVENTS": [
+    {
+      "name": "[Event name]",
+      "format": "[Format, such as a founder meetup or a one-day conference]",
+      "date": "[Date]",
+      "city": "[City]",
+      "audience": "[Who it’s for]"
+    }
+  ],
+  "ALL_SERVICES": [
+    {
+      "name": "Brand Strategy & Positioning",
+      "copy": "Define who you serve, why you win and how you’re different, grounded in audience and competitor research.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Brand strategy and development"
+    },
+    {
+      "name": "Brand Naming & Architecture",
+      "copy": "Names and naming systems for companies, products and sub-brands, with a structure that holds as you grow.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Brand strategy and development"
+    },
+    {
+      "name": "Visual Identity & Brand Guidelines",
+      "copy": "Logo, typography, colour and a visual system, documented in guidelines your team and partners can follow.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Brand strategy and development"
+    },
+    {
+      "name": "Brand Messaging & Storytelling",
+      "copy": "Your brand story, key messages and tone of voice, turned into a framework every channel can use.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Brand strategy and development"
+    },
+    {
+      "name": "Rebranding & Brand Refresh",
+      "copy": "Audit what’s working, reposition what isn’t, and plan a transition that brings your customers with you.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Brand strategy and development"
+    },
+    {
+      "name": "Corporate Profile & Presentation Design",
+      "copy": "Company profiles, capability decks and sales presentations that make your case clearly.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Brand strategy and development"
+    },
+    {
+      "name": "Product Positioning & Go-to-Market Strategy",
+      "copy": "Positioning, audience research and a launch plan that gives a new product a clear route to market.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Brand strategy and development"
+    },
+    {
+      "name": "Integrated Marketing Campaigns",
+      "copy": "Campaigns that connect brand, content, digital, PR, communities and live experiences around one idea.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Brand strategy and development"
+    },
+    {
+      "name": "Brand Launch & Market Entry",
+      "copy": "Pre-launch, launch-day and post-launch plans for new brands and new markets.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Brand strategy and development"
+    },
+    {
+      "name": "Custom Marketing Strategy",
+      "copy": "A plan built around your specific challenge, budget and goals, for when no standard package fits.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Brand strategy and development"
+    },
+    {
+      "name": "Social Media Strategy & Management",
+      "copy": "Channel strategy, content calendars, publishing and engagement, reviewed against agreed metrics every month.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "Performance Marketing & Paid Advertising",
+      "copy": "Paid campaigns planned, run and optimised against conversion tracking, with budgets managed transparently.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "Search Engine Marketing (SEM)",
+      "copy": "Paid search built around buyer intent, from keyword strategy to landing-page conversion.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "Email & WhatsApp Marketing",
+      "copy": "Newsletters, campaigns and automated sequences, sent only to people who have opted in.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "Influencer & Creator Marketing",
+      "copy": "Find the right creators, plan the collaboration, approve the content and track what it delivers.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "Affiliate & Referral Marketing",
+      "copy": "Referral programmes and affiliate partnerships with tracking links and performance-based terms.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "Lead Generation & Appointment Setting",
+      "copy": "Prospect research, lead funnels and qualification workflows designed to fill your sales calendar with relevant meetings.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "B2B Growth & Account-Based Marketing",
+      "copy": "Choose target accounts, research decision-makers and run personalised outreach that supports your pipeline.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "Sales Funnel & Conversion Optimisation",
+      "copy": "Landing pages, journey analysis, conversion testing and remarketing to turn more of your traffic into enquiries.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "CRM Setup & Marketing Automation",
+      "copy": "CRM configuration, lead routing and lifecycle workflows, so every enquiry is routed, followed up and tracked.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "Customer Retention & Loyalty Marketing",
+      "copy": "Lifecycle communications, loyalty and referral initiatives that give customers reasons to come back.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "E-commerce & App Growth",
+      "copy": "Acquisition, app-install and retention campaigns for online stores and apps.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "Local & Regional Marketing",
+      "copy": "Local search visibility, location pages and regional campaigns for businesses that serve specific cities.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "Partnership & Channel Marketing",
+      "copy": "Partner outreach, co-marketing and channel campaigns that extend your reach through others.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "Marketing Analytics & Attribution",
+      "copy": "UTM tracking, dashboards and attribution reporting that show which activity drives results.",
+      "link": "",
+      "tag": "",
+      "cap": "brand",
+      "group": "Digital marketing and business growth"
+    },
+    {
+      "name": "Corporate & Business Website Development",
+      "copy": "Responsive, fast business websites with a content management system your team can update.",
+      "link": "#/services/business-website-development",
+      "tag": "",
+      "cap": "tech",
+      "group": "Websites and commerce"
+    },
+    {
+      "name": "Landing Page & Conversion Website Development",
+      "copy": "Campaign, launch and lead-generation pages designed for one job: conversion.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Websites and commerce"
+    },
+    {
+      "name": "E-commerce & Marketplace Development",
+      "copy": "Catalogues, carts, checkout, marketplace workflows and order management.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Websites and commerce"
+    },
+    {
+      "name": "Event Website, Ticketing & Registration Platforms",
+      "copy": "Event sites with ticketing, registration and QR check-in built in.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Websites and commerce"
+    },
+    {
+      "name": "Web Application & SaaS Development",
+      "copy": "Dashboards, user accounts, subscriptions and custom workflows, built as maintainable software.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Products and applications"
+    },
+    {
+      "name": "Android & iOS App Development",
+      "copy": "Native or cross-platform mobile apps, chosen to fit your product, budget and roadmap.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Products and applications"
+    },
+    {
+      "name": "UI/UX Design & Prototyping",
+      "copy": "Research, wireframes, interface design and clickable prototypes, tested with users before development starts.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Products and applications"
+    },
+    {
+      "name": "Backend, Database & API Development",
+      "copy": "The business logic, databases, authentication and APIs your products and integrations depend on.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Products and applications"
+    },
+    {
+      "name": "AI Integration & Business Automation",
+      "copy": "Practical AI in your workflows: document processing, support automation and productivity tools.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Systems and automation"
+    },
+    {
+      "name": "CRM, ERP & Internal Business Systems",
+      "copy": "CRM customisation, internal dashboards and digitised processes that fit how your team works.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Systems and automation"
+    },
+    {
+      "name": "Payment, Booking & Third-Party Integrations",
+      "copy": "Payment gateways, calendars, booking, email and messaging connected to your product.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Systems and automation"
+    },
+    {
+      "name": "Cloud Infrastructure & Deployment",
+      "copy": "Hosting, domains, DNS, SSL, staging and production environments, set up properly from the start.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Infrastructure and care"
+    },
+    {
+      "name": "DevOps, CI/CD & Quality Assurance",
+      "copy": "Testing, deployment pipelines, version control and monitoring for reliable releases.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Infrastructure and care"
+    },
+    {
+      "name": "Website & Application Maintenance",
+      "copy": "Updates, fixes, backups, security patches and performance monitoring under a clear support agreement.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Infrastructure and care"
+    },
+    {
+      "name": "Security, Performance & Accessibility Audits",
+      "copy": "Structured reviews of security, speed and accessibility, with a prioritised list of fixes.",
+      "link": "",
+      "tag": "",
+      "cap": "tech",
+      "group": "Infrastructure and care"
+    },
+    {
+      "name": "Personal Branding Strategy",
+      "copy": "Positioning for founders, CEOs, investors and professionals, built around real expertise rather than a persona.",
+      "link": "",
+      "tag": "",
+      "cap": "media",
+      "group": "Personal branding"
+    },
+    {
+      "name": "Founder Content & LinkedIn Ghostwriting",
+      "copy": "Thought leadership in your voice: narratives, posts and an editorial calendar you approve.",
+      "link": "",
+      "tag": "",
+      "cap": "media",
+      "group": "Personal branding"
+    },
+    {
+      "name": "Personal Website & Digital Profile",
+      "copy": "A personal site with your biography, portfolio, speaking profile and a clear way to get in touch.",
+      "link": "",
+      "tag": "",
+      "cap": "media",
+      "group": "Personal branding"
+    },
+    {
+      "name": "Founder & Executive Video Shoots",
+      "copy": "Interviews, founder stories and executive messages, filmed professionally.",
+      "link": "",
+      "tag": "",
+      "cap": "media",
+      "group": "Personal branding"
+    },
+    {
+      "name": "Podcast Concept & Show Development",
+      "copy": "Name, format, audience, episode structure and a launch plan for a show with a clear purpose.",
+      "link": "",
+      "tag": "",
+      "cap": "media",
+      "group": "Podcasts"
+    },
+    {
+      "name": "Podcast Studio Design & Setup",
+      "copy": "Acoustics, lighting, cameras, microphones and set design for a studio in your own space.",
+      "link": "",
+      "tag": "",
+      "cap": "media",
+      "group": "Podcasts"
+    },
+    {
+      "name": "Podcast Recording & Production",
+      "copy": "Studio or remote, single or multi-camera, with recording run by a production crew.",
+      "link": "",
+      "tag": "",
+      "cap": "media",
+      "group": "Podcasts"
+    },
+    {
+      "name": "Podcast Editing & Publishing",
+      "copy": "Audio and video editing, mixing, colour grading, artwork and thumbnails, published to your channels.",
+      "link": "",
+      "tag": "",
+      "cap": "media",
+      "group": "Podcasts"
+    },
+    {
+      "name": "Content Repurposing & Content Day",
+      "copy": "One recording, interview or webinar turned into a library of short videos, posts and carousels.",
+      "link": "",
+      "tag": "",
+      "cap": "media",
+      "group": "Content and production"
+    },
+    {
+      "name": "Commercial Photography & Video Production",
+      "copy": "Brand films, product shoots, corporate videos and campaign creative.",
+      "link": "",
+      "tag": "",
+      "cap": "media",
+      "group": "Content and production"
+    },
+    {
+      "name": "Social Content & Creative Design",
+      "copy": "Reels, Shorts, carousels, graphics and motion design, made for each platform.",
+      "link": "",
+      "tag": "",
+      "cap": "media",
+      "group": "Content and production"
+    },
+    {
+      "name": "Newsletter & Editorial Production",
+      "copy": "Founder newsletters and company updates, written and produced on an editorial calendar.",
+      "link": "",
+      "tag": "",
+      "cap": "media",
+      "group": "Content and production"
+    },
+    {
+      "name": "Digital PR & Media Relations",
+      "copy": "Media research, journalist outreach and pitching for stories that fit what each publication covers.",
+      "link": "",
+      "tag": "",
+      "cap": "pr",
+      "group": "Media and visibility"
+    },
+    {
+      "name": "Founder & Executive PR",
+      "copy": "Profiles, expert commentary and interview pitching that build a leader’s public credibility.",
+      "link": "",
+      "tag": "",
+      "cap": "pr",
+      "group": "Media and visibility"
+    },
+    {
+      "name": "Corporate & Product PR",
+      "copy": "Announcements for product launches, milestones and company news.",
+      "link": "",
+      "tag": "",
+      "cap": "pr",
+      "group": "Media and visibility"
+    },
+    {
+      "name": "Event PR & Publicity",
+      "copy": "Event and speaker announcements, media invitations and press materials that support your event.",
+      "link": "",
+      "tag": "",
+      "cap": "pr",
+      "group": "Media and visibility"
+    },
+    {
+      "name": "Press Release & Media Kit Production",
+      "copy": "Press releases, fact sheets, boilerplate, executive bios and press kits journalists can use.",
+      "link": "",
+      "tag": "",
+      "cap": "pr",
+      "group": "Media and visibility"
+    },
+    {
+      "name": "Podcast Guest Booking & Media Appearances",
+      "copy": "Find relevant shows, pitch you as a guest and prepare you for the conversation.",
+      "link": "",
+      "tag": "",
+      "cap": "pr",
+      "group": "Media and visibility"
+    },
+    {
+      "name": "Thought Leadership & Speaking Opportunities",
+      "copy": "Expert articles, conference speaker applications and keynote opportunities.",
+      "link": "",
+      "tag": "",
+      "cap": "pr",
+      "group": "Media and visibility"
+    },
+    {
+      "name": "Reputation Monitoring & Review Intelligence",
+      "copy": "Track mentions and reviews, analyse what people are saying and set up response workflows.",
+      "link": "",
+      "tag": "",
+      "cap": "pr",
+      "group": "Reputation and trust"
+    },
+    {
+      "name": "Crisis Communication Planning",
+      "copy": "Playbooks, escalation paths and holding statements prepared before you need them, coordinated with legal and specialist advisers where required.",
+      "link": "",
+      "tag": "",
+      "cap": "pr",
+      "group": "Reputation and trust"
+    },
+    {
+      "name": "AI Search Visibility Monitoring",
+      "copy": "Review how AI-powered search experiences describe your brand, check the facts and identify ways to strengthen how you’re represented.",
+      "link": "",
+      "tag": "",
+      "cap": "pr",
+      "group": "Reputation and trust"
+    },
+    {
+      "name": "Founder Strategy & Goal Management",
+      "copy": "Quarterly goals, OKRs and execution reviews that keep the company focused on what matters most.",
+      "link": "",
+      "tag": "",
+      "cap": "fos",
+      "group": "Strategy and systems"
+    },
+    {
+      "name": "Founder Operating System & Command Centre",
+      "copy": "One workspace for company priorities, sales, team tasks, marketing, operations and reporting.",
+      "link": "",
+      "tag": "",
+      "cap": "fos",
+      "group": "Strategy and systems"
+    },
+    {
+      "name": "SOP & Process Documentation",
+      "copy": "Standard operating procedures, checklists and a knowledge base built around how your team works.",
+      "link": "",
+      "tag": "",
+      "cap": "fos",
+      "group": "Strategy and systems"
+    },
+    {
+      "name": "Business Automation & Knowledge Management",
+      "copy": "Automated internal workflows, meeting documentation and operational dashboards.",
+      "link": "",
+      "tag": "",
+      "cap": "fos",
+      "group": "Strategy and systems"
+    },
+    {
+      "name": "Recruitment Strategy & Job Descriptions",
+      "copy": "Hiring plans, role definitions and scorecards, ready before the first job post goes live.",
+      "link": "",
+      "tag": "",
+      "cap": "fos",
+      "group": "People and hiring"
+    },
+    {
+      "name": "Candidate Sourcing & Recruitment Coordination",
+      "copy": "Candidate research, application workflows, interview scheduling and pipeline management.",
+      "link": "",
+      "tag": "",
+      "cap": "fos",
+      "group": "People and hiring"
+    },
+    {
+      "name": "Onboarding & Team Enablement",
+      "copy": "Onboarding plans, documentation and training workflows, with clear responsibilities from day one.",
+      "link": "",
+      "tag": "",
+      "cap": "fos",
+      "group": "People and hiring"
+    },
+    {
+      "name": "Fractional Specialist & Talent Network",
+      "copy": "We source and qualify fractional executives, consultants and freelancers when you need senior skills without a full-time hire.",
+      "link": "",
+      "tag": "",
+      "cap": "fos",
+      "group": "People and hiring"
+    },
+    {
+      "name": "Sales Operations & Pipeline Management",
+      "copy": "Sales workflows, follow-up discipline, CRM hygiene and pipeline reporting.",
+      "link": "",
+      "tag": "",
+      "cap": "fos",
+      "group": "Sales and suppliers"
+    },
+    {
+      "name": "Vendor, Agency & Procurement Coordination",
+      "copy": "Vendor research, quotation comparison, supplier records and delivery coordination.",
+      "link": "",
+      "tag": "",
+      "cap": "fos",
+      "group": "Sales and suppliers"
+    },
+    {
+      "name": "End-to-End Event Management",
+      "copy": "Planning, budgeting, vendor coordination, event-day operations and post-event closure, managed by one lead.",
+      "link": "",
+      "tag": "",
+      "cap": "events",
+      "group": "Planning and design"
+    },
+    {
+      "name": "Event Concept, Theme & Experience Design",
+      "copy": "Positioning, format, agenda and audience journey, designed around what the event needs to achieve.",
+      "link": "",
+      "tag": "",
+      "cap": "events",
+      "group": "Planning and design"
+    },
+    {
+      "name": "Venue Discovery & Coordination",
+      "copy": "Venue research, comparisons, site visits, availability checks and negotiation support.",
+      "link": "",
+      "tag": "",
+      "cap": "events",
+      "group": "Planning and design"
+    },
+    {
+      "name": "Event Branding, Stage & Spatial Design",
+      "copy": "Event identity, stage concepts, signage, venue layouts, booths and branded environments.",
+      "link": "",
+      "tag": "",
+      "cap": "events",
+      "group": "Planning and design"
+    },
+    {
+      "name": "Event Production & Fabrication Coordination",
+      "copy": "AV, LED, sound, lighting, structures, fabrication and furniture, delivered through qualified production vendors.",
+      "link": "",
+      "tag": "",
+      "cap": "events",
+      "group": "Production and operations"
+    },
+    {
+      "name": "Speaker, Artist, Guest & VIP Management",
+      "copy": "Speaker coordination, artist logistics, guest lists and VIP hospitality.",
+      "link": "",
+      "tag": "",
+      "cap": "events",
+      "group": "Production and operations"
+    },
+    {
+      "name": "Event Registration, Ticketing & Check-in",
+      "copy": "Ticket categories, registration, QR check-in and live guest tracking.",
+      "link": "",
+      "tag": "",
+      "cap": "events",
+      "group": "Production and operations"
+    },
+    {
+      "name": "Event Logistics, Staffing & Operations",
+      "copy": "Staffing, volunteers, vendor schedules, run-of-show and event-day checklists.",
+      "link": "",
+      "tag": "",
+      "cap": "events",
+      "group": "Production and operations"
+    },
+    {
+      "name": "Event Marketing & Audience Acquisition",
+      "copy": "Campaigns, content and outreach that build registrations from the right audience.",
+      "link": "",
+      "tag": "",
+      "cap": "events",
+      "group": "Audience, sponsors and follow-up"
+    },
+    {
+      "name": "Sponsorship & Exhibitor Acquisition Support",
+      "copy": "Sponsor prospecting, sponsorship proposals and exhibitor outreach.",
+      "link": "",
+      "tag": "",
+      "cap": "events",
+      "group": "Audience, sponsors and follow-up"
+    },
+    {
+      "name": "Event Invitation & RSVP Automation",
+      "copy": "Personalised digital invitations, RSVP pages, confirmations and reminders.",
+      "link": "",
+      "tag": "",
+      "cap": "events",
+      "group": "Audience, sponsors and follow-up"
+    },
+    {
+      "name": "Event Photography, Video & Live Content",
+      "copy": "Event coverage, interviews, highlights and live social content.",
+      "link": "",
+      "tag": "",
+      "cap": "events",
+      "group": "Audience, sponsors and follow-up"
+    },
+    {
+      "name": "Event Reporting & Post-Event Follow-up",
+      "copy": "Attendance analysis, sponsor deliverables, feedback, lead handover and follow-up campaigns.",
+      "link": "",
+      "tag": "",
+      "cap": "events",
+      "group": "Audience, sponsors and follow-up"
+    },
+    {
+      "name": "Multi-Platform Content Distribution",
+      "copy": "Approved content published across the social, editorial and digital channels that suit your audience.",
+      "link": "",
+      "tag": "",
+      "cap": "network",
+      "group": "Content distribution and community"
+    },
+    {
+      "name": "Creator & Publisher Distribution",
+      "copy": "Placements coordinated with relevant creators, publishers and distribution partners.",
+      "link": "",
+      "tag": "",
+      "cap": "network",
+      "group": "Content distribution and community"
+    },
+    {
+      "name": "Community Distribution & Activation",
+      "copy": "Permission-based distribution in relevant WhatsApp, Telegram, LinkedIn, Facebook, Discord and industry communities. Never spam.",
+      "link": "",
+      "tag": "",
+      "cap": "network",
+      "group": "Content distribution and community"
+    },
+    {
+      "name": "Founder & Startup Community Marketing",
+      "copy": "Reach founders through incubators, accelerators, E-cells and entrepreneurship communities.",
+      "link": "",
+      "tag": "",
+      "cap": "network",
+      "group": "Content distribution and community"
+    },
+    {
+      "name": "Newsletter & Podcast Distribution",
+      "copy": "Newsletter placements, podcast promotion and cross-promotion with aligned audiences.",
+      "link": "",
+      "tag": "",
+      "cap": "network",
+      "group": "Content distribution and community"
+    },
+    {
+      "name": "Event Content Distribution",
+      "copy": "Speaker clips, highlights and interviews distributed to extend an event’s reach after the day.",
+      "link": "",
+      "tag": "",
+      "cap": "network",
+      "group": "Content distribution and community"
+    },
+    {
+      "name": "Distribution Campaign Management",
+      "copy": "Audience research, channel selection, scheduling, partner coordination and reporting, run as one campaign.",
+      "link": "",
+      "tag": "",
+      "cap": "network",
+      "group": "Content distribution and community"
+    },
+    {
+      "name": "Creator, Media & Community Partner Sourcing",
+      "copy": "Partners found and qualified by audience, geography, industry and budget.",
+      "link": "",
+      "tag": "",
+      "cap": "network",
+      "group": "Content distribution and community"
+    },
+    {
+      "name": "Content-to-Lead Distribution",
+      "copy": "Distribution connected to landing pages and lead capture, so reach turns into trackable enquiries.",
+      "link": "",
+      "tag": "",
+      "cap": "network",
+      "group": "Content distribution and community"
+    },
+    {
+      "name": "Distribution Analytics & Attribution",
+      "copy": "Link tracking, partner performance and referral traffic, reported by campaign.",
+      "link": "",
+      "tag": "",
+      "cap": "network",
+      "group": "Content distribution and community"
+    },
+    {
+      "name": "Curated Conferences & Founder Meetups",
+      "copy": "Concept, speaker curation, registration, partners and delivery for focused gatherings.",
+      "link": "",
+      "tag": "",
+      "cap": "network",
+      "group": "Experiences"
+    },
+    {
+      "name": "Owned Event IP Development",
+      "copy": "Collabify’s own repeatable event formats, each with its own audience, programme and sponsorship model.",
+      "link": "",
+      "tag": "Coming soon",
+      "cap": "network",
+      "group": "Experiences"
+    },
+    {
+      "name": "Brand Activations & Experiential Marketing",
+      "copy": "Pop-ups, roadshows, campus activations, sampling and interactive installations.",
+      "link": "",
+      "tag": "",
+      "cap": "network",
+      "group": "Experiences"
+    },
+    {
+      "name": "Event-to-Media & Podcast Lounges",
+      "copy": "Podcast and interview lounges at events that turn conversations into content.",
+      "link": "",
+      "tag": "",
+      "cap": "network",
+      "group": "Experiences"
+    },
+    {
+      "name": "Collabify Distribution Marketplace",
+      "copy": "A platform connecting brands with creators, communities, newsletters and publishers for managed campaigns. Not available yet: today we run these campaigns as a managed service.",
+      "link": "",
+      "tag": "Planned",
+      "cap": "network",
+      "group": "Platform"
+    },
+    {
+      "name": "Custom Integrated Growth & Technology Solutions",
+      "copy": "Bespoke projects combining marketing, technology, content, PR, hiring, distribution and event execution, scoped around your problem.",
+      "link": "#/solutions/custom",
+      "tag": "",
+      "cap": "custom",
+      "group": "Across capabilities"
+    }
+  ],
+  "PAL": {
+    "o": "#FF9D3E",
+    "i": "#41448F",
+    "b": "#1B95BB",
+    "t": "#35AFA0",
+    "p": "#DA5773",
+    "s": "#454850",
+    "c": "#EF814A"
+  },
+  "SCENES": {
+    "brand": "<rect x=\"44\" y=\"41\" width=\"196\" height=\"262\" rx=\"18\" class=\"sh\"/><rect x=\"40\" y=\"34\" width=\"196\" height=\"262\" rx=\"18\" class=\"cd\"/><g class=\"a-pop d1\"><circle cx=\"80\" cy=\"84\" r=\"20\" fill=\"#41448F\"/><circle cx=\"101\" cy=\"75\" r=\"16\" fill=\"#FF9D3E\"/><circle cx=\"97\" cy=\"99\" r=\"15\" fill=\"#35AFA0\"/></g><rect x=\"130\" y=\"70\" width=\"86\" height=\"12\" rx=\"6\" class=\"ik\"/><rect x=\"130\" y=\"90\" width=\"60\" height=\"8\" rx=\"4\" class=\"ln\"/><rect x=\"60\" y=\"130\" width=\"156\" height=\"2\" class=\"ln\"/><circle class=\"a-pop d2\" cx=\"76\" cy=\"166\" r=\"16\" fill=\"#FF9D3E\"/><circle class=\"a-pop d3\" cx=\"116\" cy=\"166\" r=\"16\" fill=\"#41448F\"/><circle class=\"a-pop d4\" cx=\"156\" cy=\"166\" r=\"16\" fill=\"#35AFA0\"/><circle class=\"a-pop d5\" cx=\"196\" cy=\"166\" r=\"16\" fill=\"#DA5773\"/><text x=\"58\" y=\"262\" class=\"ikt\" font-size=\"58\" font-weight=\"800\">Aa</text><rect x=\"150\" y=\"222\" width=\"66\" height=\"8\" rx=\"4\" class=\"ln\"/><rect x=\"150\" y=\"238\" width=\"50\" height=\"8\" rx=\"4\" class=\"ln\"/><rect x=\"150\" y=\"254\" width=\"58\" height=\"8\" rx=\"4\" class=\"ln\"/><rect x=\"266\" y=\"59\" width=\"186\" height=\"134\" rx=\"16\" class=\"sh\"/><rect x=\"262\" y=\"52\" width=\"186\" height=\"134\" rx=\"16\" class=\"cd\"/><rect x=\"282\" y=\"70\" width=\"70\" height=\"8\" rx=\"4\" class=\"ik\"/><rect x=\"282\" y=\"106\" width=\"146\" height=\"2\" class=\"ln\"/><rect x=\"282\" y=\"132\" width=\"146\" height=\"2\" class=\"ln\"/><rect x=\"282\" y=\"158\" width=\"146\" height=\"2\" class=\"ln\"/><path class=\"a-draw\" pathLength=\"1\" d=\"M284 164 L318 148 L350 154 L386 122 L426 98\" fill=\"none\" stroke=\"#FF9D3E\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle class=\"a-pop d5\" cx=\"426\" cy=\"98\" r=\"7\" fill=\"#FF9D3E\"/><rect x=\"266\" y=\"209\" width=\"186\" height=\"102\" rx=\"16\" class=\"sh\"/><rect x=\"262\" y=\"202\" width=\"186\" height=\"102\" rx=\"16\" class=\"cd\"/><g class=\"a-rise d2\"><rect x=\"282\" y=\"220\" width=\"146\" height=\"16\" rx=\"8\" fill=\"#41448F\"/><rect x=\"298\" y=\"243\" width=\"114\" height=\"16\" rx=\"8\" fill=\"#1B95BB\"/><rect x=\"314\" y=\"266\" width=\"82\" height=\"16\" rx=\"8\" fill=\"#35AFA0\"/></g>",
+    "tech": "<rect x=\"32\" y=\"41\" width=\"300\" height=\"236\" rx=\"16\" class=\"sh\"/><rect x=\"28\" y=\"34\" width=\"300\" height=\"236\" rx=\"16\" class=\"cd\"/><circle cx=\"50\" cy=\"54\" r=\"5\" fill=\"#DA5773\"/><circle cx=\"66\" cy=\"54\" r=\"5\" fill=\"#FF9D3E\"/><circle cx=\"82\" cy=\"54\" r=\"5\" fill=\"#35AFA0\"/><rect x=\"102\" y=\"47\" width=\"206\" height=\"14\" rx=\"7\" class=\"ln\"/><rect x=\"28\" y=\"72\" width=\"300\" height=\"2\" class=\"ln\"/><rect x=\"46\" y=\"88\" width=\"264\" height=\"88\" rx=\"12\" fill=\"#41448F\"/><rect x=\"64\" y=\"108\" width=\"128\" height=\"12\" rx=\"6\" fill=\"#FFFFFF\"/><rect x=\"64\" y=\"128\" width=\"94\" height=\"8\" rx=\"4\" fill=\"#FFFFFF\" opacity=\".6\"/><rect x=\"64\" y=\"148\" width=\"64\" height=\"16\" rx=\"8\" fill=\"#FF9D3E\"/><circle cx=\"256\" cy=\"134\" r=\"28\" fill=\"#1B95BB\"/><circle cx=\"282\" cy=\"120\" r=\"17\" fill=\"#35AFA0\"/><g class=\"a-rise d1\"><rect x=\"46\" y=\"190\" width=\"84\" height=\"64\" rx=\"10\" class=\"ln\"/><circle cx=\"64\" cy=\"208\" r=\"8\" fill=\"#FF9D3E\"/><rect x=\"58\" y=\"226\" width=\"58\" height=\"6\" rx=\"3\" class=\"cd\"/><rect x=\"58\" y=\"238\" width=\"40\" height=\"6\" rx=\"3\" class=\"cd\"/></g><g class=\"a-rise d2\"><rect x=\"136\" y=\"190\" width=\"84\" height=\"64\" rx=\"10\" class=\"ln\"/><circle cx=\"154\" cy=\"208\" r=\"8\" fill=\"#35AFA0\"/><rect x=\"148\" y=\"226\" width=\"58\" height=\"6\" rx=\"3\" class=\"cd\"/><rect x=\"148\" y=\"238\" width=\"40\" height=\"6\" rx=\"3\" class=\"cd\"/></g><g class=\"a-rise d3\"><rect x=\"226\" y=\"190\" width=\"84\" height=\"64\" rx=\"10\" class=\"ln\"/><circle cx=\"244\" cy=\"208\" r=\"8\" fill=\"#DA5773\"/><rect x=\"238\" y=\"226\" width=\"58\" height=\"6\" rx=\"3\" class=\"cd\"/><rect x=\"238\" y=\"238\" width=\"40\" height=\"6\" rx=\"3\" class=\"cd\"/></g><g class=\"a-rise d4\"><rect x=\"336\" y=\"84\" width=\"116\" height=\"220\" rx=\"22\" fill=\"#454850\"/><rect x=\"344\" y=\"100\" width=\"100\" height=\"190\" rx=\"14\" class=\"cd\"/><rect x=\"374\" y=\"90\" width=\"40\" height=\"5\" rx=\"2.5\" fill=\"#2E3137\"/><rect x=\"352\" y=\"110\" width=\"84\" height=\"58\" rx=\"9\" fill=\"#35AFA0\"/><rect x=\"352\" y=\"180\" width=\"66\" height=\"8\" rx=\"4\" class=\"ik\"/><rect x=\"352\" y=\"194\" width=\"48\" height=\"6\" rx=\"3\" class=\"ln\"/><circle cx=\"360\" cy=\"218\" r=\"7\" class=\"ln\"/><rect x=\"374\" y=\"214\" width=\"58\" height=\"7\" rx=\"3.5\" class=\"ln\"/><circle cx=\"360\" cy=\"244\" r=\"7\" class=\"ln\"/><rect x=\"374\" y=\"240\" width=\"58\" height=\"7\" rx=\"3.5\" class=\"ln\"/><circle cx=\"360\" cy=\"270\" r=\"7\" class=\"ln\"/><rect x=\"374\" y=\"266\" width=\"58\" height=\"7\" rx=\"3.5\" class=\"ln\"/></g><g class=\"a-pop d5\"><circle cx=\"318\" cy=\"282\" r=\"27\" fill=\"#FF9D3E\"/><text x=\"318\" y=\"289\" text-anchor=\"middle\" font-size=\"19\" font-weight=\"800\" fill=\"#1A1405\" class=\"mono\">&lt;/&gt;</text></g>",
+    "media": "<rect x=\"34\" y=\"41\" width=\"280\" height=\"176\" rx=\"16\" fill=\"rgba(0,0,0,.08)\"/><rect x=\"30\" y=\"34\" width=\"280\" height=\"176\" rx=\"16\" fill=\"#2B2D6B\"/><rect x=\"46\" y=\"48\" width=\"60\" height=\"24\" rx=\"12\" fill=\"#FFFFFF\" opacity=\".14\"/><circle class=\"a-blink\" cx=\"60\" cy=\"60\" r=\"5\" fill=\"#DA5773\"/><text x=\"71\" y=\"65\" font-size=\"12\" font-weight=\"700\" fill=\"#FFFFFF\">REC</text><g class=\"a-pop d1\"><circle cx=\"170\" cy=\"120\" r=\"31\" fill=\"#FFFFFF\"/><path d=\"M162 104 L188 120 L162 136 Z\" fill=\"#41448F\"/></g><rect x=\"46\" y=\"190\" width=\"248\" height=\"5\" rx=\"2.5\" fill=\"#FFFFFF\" opacity=\".25\"/><rect class=\"a-grow\" x=\"46\" y=\"190\" width=\"110\" height=\"5\" rx=\"2.5\" fill=\"#FF9D3E\"/><g class=\"a-rise d2\"><rect x=\"358\" y=\"38\" width=\"56\" height=\"98\" rx=\"28\" fill=\"#41448F\"/><rect x=\"368\" y=\"58\" width=\"36\" height=\"4\" rx=\"2\" fill=\"#FFFFFF\" opacity=\".35\"/><rect x=\"368\" y=\"72\" width=\"36\" height=\"4\" rx=\"2\" fill=\"#FFFFFF\" opacity=\".35\"/><rect x=\"368\" y=\"86\" width=\"36\" height=\"4\" rx=\"2\" fill=\"#FFFFFF\" opacity=\".35\"/><rect x=\"368\" y=\"100\" width=\"36\" height=\"4\" rx=\"2\" fill=\"#FFFFFF\" opacity=\".35\"/><path d=\"M344 104 a42 42 0 0 0 84 0\" fill=\"none\" stroke=\"#454850\" stroke-width=\"7\" stroke-linecap=\"round\"/><rect x=\"382\" y=\"146\" width=\"8\" height=\"42\" fill=\"#454850\"/><rect x=\"356\" y=\"186\" width=\"60\" height=\"10\" rx=\"5\" fill=\"#454850\"/></g><rect x=\"34\" y=\"235\" width=\"280\" height=\"78\" rx=\"14\" class=\"sh\"/><rect x=\"30\" y=\"228\" width=\"280\" height=\"78\" rx=\"14\" class=\"cd\"/><rect class=\"a-wave\" style=\"animation-delay:0.00s\" x=\"48\" y=\"254\" width=\"6\" height=\"26\" rx=\"3\" fill=\"#35AFA0\"/><rect class=\"a-wave\" style=\"animation-delay:-0.13s\" x=\"60.6\" y=\"247\" width=\"6\" height=\"40\" rx=\"3\" fill=\"#1B95BB\"/><rect class=\"a-wave\" style=\"animation-delay:-0.26s\" x=\"73.2\" y=\"258\" width=\"6\" height=\"18\" rx=\"3\" fill=\"#35AFA0\"/><rect class=\"a-wave\" style=\"animation-delay:-0.39s\" x=\"85.8\" y=\"243\" width=\"6\" height=\"48\" rx=\"3\" fill=\"#1B95BB\"/><rect class=\"a-wave\" style=\"animation-delay:-0.52s\" x=\"98.4\" y=\"252\" width=\"6\" height=\"30\" rx=\"3\" fill=\"#35AFA0\"/><rect class=\"a-wave\" style=\"animation-delay:-0.65s\" x=\"111\" y=\"239\" width=\"6\" height=\"56\" rx=\"3\" fill=\"#1B95BB\"/><rect class=\"a-wave\" style=\"animation-delay:-0.78s\" x=\"123.6\" y=\"256\" width=\"6\" height=\"22\" rx=\"3\" fill=\"#35AFA0\"/><rect class=\"a-wave\" style=\"animation-delay:-0.91s\" x=\"136.2\" y=\"245\" width=\"6\" height=\"44\" rx=\"3\" fill=\"#1B95BB\"/><rect class=\"a-wave\" style=\"animation-delay:-1.04s\" x=\"148.8\" y=\"249\" width=\"6\" height=\"36\" rx=\"3\" fill=\"#35AFA0\"/><rect class=\"a-wave\" style=\"animation-delay:-1.17s\" x=\"161.39999999999998\" y=\"237\" width=\"6\" height=\"60\" rx=\"3\" fill=\"#1B95BB\"/><rect class=\"a-wave\" style=\"animation-delay:-1.30s\" x=\"174\" y=\"253\" width=\"6\" height=\"28\" rx=\"3\" fill=\"#35AFA0\"/><rect class=\"a-wave\" style=\"animation-delay:-1.43s\" x=\"186.6\" y=\"242\" width=\"6\" height=\"50\" rx=\"3\" fill=\"#1B95BB\"/><rect class=\"a-wave\" style=\"animation-delay:-1.56s\" x=\"199.2\" y=\"257\" width=\"6\" height=\"20\" rx=\"3\" fill=\"#35AFA0\"/><rect class=\"a-wave\" style=\"animation-delay:-1.69s\" x=\"211.79999999999998\" y=\"246\" width=\"6\" height=\"42\" rx=\"3\" fill=\"#1B95BB\"/><rect class=\"a-wave\" style=\"animation-delay:-1.82s\" x=\"224.4\" y=\"240\" width=\"6\" height=\"54\" rx=\"3\" fill=\"#35AFA0\"/><rect class=\"a-wave\" style=\"animation-delay:-1.95s\" x=\"237\" y=\"251\" width=\"6\" height=\"32\" rx=\"3\" fill=\"#1B95BB\"/><rect class=\"a-wave\" style=\"animation-delay:-2.08s\" x=\"249.6\" y=\"244\" width=\"6\" height=\"46\" rx=\"3\" fill=\"#35AFA0\"/><rect class=\"a-wave\" style=\"animation-delay:-2.21s\" x=\"262.2\" y=\"255\" width=\"6\" height=\"24\" rx=\"3\" fill=\"#1B95BB\"/><rect class=\"a-wave\" style=\"animation-delay:-2.34s\" x=\"274.79999999999995\" y=\"248\" width=\"6\" height=\"38\" rx=\"3\" fill=\"#35AFA0\"/><rect class=\"a-wave\" style=\"animation-delay:-2.47s\" x=\"287.4\" y=\"241\" width=\"6\" height=\"52\" rx=\"3\" fill=\"#1B95BB\"/><rect x=\"334\" y=\"229\" width=\"124\" height=\"86\" rx=\"14\" class=\"sh\"/><rect x=\"330\" y=\"222\" width=\"124\" height=\"86\" rx=\"14\" class=\"cd\"/><circle cx=\"352\" cy=\"246\" r=\"12\" fill=\"#FF9D3E\"/><rect x=\"372\" y=\"238\" width=\"64\" height=\"8\" rx=\"4\" class=\"ik\"/><rect x=\"372\" y=\"252\" width=\"42\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"344\" y=\"272\" width=\"96\" height=\"24\" rx=\"7\" fill=\"#DA5773\" opacity=\".85\"/>",
+    "pr": "<rect x=\"36\" y=\"35\" width=\"228\" height=\"280\" rx=\"14\" class=\"sh\"/><rect x=\"32\" y=\"28\" width=\"228\" height=\"280\" rx=\"14\" class=\"cd\"/><rect x=\"52\" y=\"48\" width=\"188\" height=\"18\" rx=\"4\" class=\"ik\"/><rect x=\"52\" y=\"74\" width=\"188\" height=\"2\" class=\"ln\"/><rect x=\"52\" y=\"88\" width=\"172\" height=\"12\" rx=\"6\" class=\"ik\"/><rect x=\"52\" y=\"106\" width=\"122\" height=\"12\" rx=\"6\" class=\"ik\"/><g class=\"a-pop d1\"><rect x=\"52\" y=\"130\" width=\"92\" height=\"72\" rx=\"8\" fill=\"#1B95BB\"/><circle cx=\"122\" cy=\"152\" r=\"10\" fill=\"#FF9D3E\"/><path d=\"M52 190 L82 162 L104 182 L118 170 L144 196 L144 202 L52 202 Z\" fill=\"#41448F\" opacity=\".75\"/></g><rect x=\"156\" y=\"134\" width=\"84\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"156\" y=\"146\" width=\"84\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"156\" y=\"158\" width=\"84\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"156\" y=\"170\" width=\"84\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"156\" y=\"182\" width=\"84\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"156\" y=\"194\" width=\"84\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"52\" y=\"216\" width=\"84\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"150\" y=\"216\" width=\"90\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"52\" y=\"228\" width=\"84\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"150\" y=\"228\" width=\"90\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"52\" y=\"240\" width=\"84\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"150\" y=\"240\" width=\"90\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"52\" y=\"252\" width=\"84\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"150\" y=\"252\" width=\"90\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"52\" y=\"264\" width=\"84\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"150\" y=\"264\" width=\"90\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"52\" y=\"276\" width=\"84\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"150\" y=\"276\" width=\"90\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"52\" y=\"288\" width=\"84\" height=\"6\" rx=\"3\" class=\"ln\"/><rect x=\"150\" y=\"288\" width=\"90\" height=\"6\" rx=\"3\" class=\"ln\"/><g class=\"a-rise d2\"><path d=\"M300 98 L370 66 L370 150 L300 120 Z\" fill=\"#FF9D3E\"/><rect x=\"286\" y=\"94\" width=\"20\" height=\"30\" rx=\"7\" fill=\"#DA5773\"/><rect x=\"322\" y=\"124\" width=\"13\" height=\"38\" rx=\"6.5\" fill=\"#454850\"/></g><g fill=\"none\" stroke=\"#41448F\" stroke-width=\"5\" stroke-linecap=\"round\"><path class=\"a-arc\" d=\"M386 88 q14 20 0 40\"/><path class=\"a-arc d2\" d=\"M400 74 q26 34 0 68\"/><path class=\"a-arc d3\" d=\"M414 60 q38 48 0 96\"/></g><rect x=\"282\" y=\"199\" width=\"174\" height=\"114\" rx=\"14\" class=\"sh\"/><rect x=\"278\" y=\"192\" width=\"174\" height=\"114\" rx=\"14\" class=\"cd\"/><rect x=\"294\" y=\"208\" width=\"142\" height=\"24\" rx=\"12\" class=\"ln\"/><circle cx=\"309\" cy=\"220\" r=\"5.5\" fill=\"none\" stroke-width=\"2.4\" class=\"sk-ink\"/><path d=\"M313 224 l5 5\" stroke-width=\"2.4\" stroke-linecap=\"round\" class=\"sk-ink\"/><g class=\"a-rise d3\"><rect x=\"294\" y=\"246\" width=\"112\" height=\"9\" rx=\"4.5\" fill=\"#41448F\"/><rect x=\"294\" y=\"261\" width=\"138\" height=\"5\" rx=\"2.5\" class=\"ln\"/><rect x=\"294\" y=\"271\" width=\"104\" height=\"5\" rx=\"2.5\" class=\"ln\"/><rect x=\"294\" y=\"286\" width=\"86\" height=\"9\" rx=\"4.5\" fill=\"#1B95BB\"/></g><path class=\"a-pop d4\" d=\"M446 178 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z\" fill=\"#35AFA0\"/>",
+    "fos": "<rect x=\"32\" y=\"35\" width=\"424\" height=\"280\" rx=\"18\" class=\"sh\"/><rect x=\"28\" y=\"28\" width=\"424\" height=\"280\" rx=\"18\" class=\"cd\"/><path d=\"M28 46 a18 18 0 0 1 18 -18 H92 V308 H46 a18 18 0 0 1 -18 -18 Z\" fill=\"#454850\"/><circle cx=\"60\" cy=\"62\" r=\"11\" fill=\"#FF9D3E\"/><rect x=\"50\" y=\"98\" width=\"20\" height=\"14\" rx=\"4\" fill=\"#FFFFFF\" opacity=\".35\"/><rect x=\"50\" y=\"128\" width=\"20\" height=\"14\" rx=\"4\" fill=\"#FFFFFF\" opacity=\".35\"/><rect x=\"50\" y=\"158\" width=\"20\" height=\"14\" rx=\"4\" fill=\"#FFFFFF\" opacity=\".35\"/><rect x=\"50\" y=\"188\" width=\"20\" height=\"14\" rx=\"4\" fill=\"#FFFFFF\" opacity=\".35\"/><rect x=\"112\" y=\"46\" width=\"120\" height=\"12\" rx=\"6\" class=\"ik\"/><rect x=\"384\" y=\"44\" width=\"52\" height=\"18\" rx=\"9\" fill=\"#35AFA0\"/><circle cx=\"117\" cy=\"84\" r=\"5\" fill=\"#DA5773\"/><rect x=\"128\" y=\"80\" width=\"50\" height=\"8\" rx=\"4\" class=\"ln\"/><circle cx=\"227\" cy=\"84\" r=\"5\" fill=\"#FF9D3E\"/><rect x=\"238\" y=\"80\" width=\"50\" height=\"8\" rx=\"4\" class=\"ln\"/><circle cx=\"337\" cy=\"84\" r=\"5\" fill=\"#35AFA0\"/><rect x=\"348\" y=\"80\" width=\"50\" height=\"8\" rx=\"4\" class=\"ln\"/><rect x=\"112\" y=\"98\" width=\"98\" height=\"50\" rx=\"9\" class=\"ln\"/><rect x=\"122\" y=\"108\" width=\"40\" height=\"6\" rx=\"3\" fill=\"#DA5773\"/><rect x=\"122\" y=\"122\" width=\"70\" height=\"6\" rx=\"3\" class=\"cd\"/><rect x=\"122\" y=\"134\" width=\"50\" height=\"6\" rx=\"3\" class=\"cd\"/><g class=\"a-move\"><rect x=\"112\" y=\"156\" width=\"98\" height=\"50\" rx=\"9\" fill=\"#FF9D3E\" opacity=\".9\"/><rect x=\"122\" y=\"166\" width=\"40\" height=\"6\" rx=\"3\" class=\"cd\"/><rect x=\"122\" y=\"180\" width=\"70\" height=\"6\" rx=\"3\" class=\"cd\"/><rect x=\"122\" y=\"192\" width=\"46\" height=\"6\" rx=\"3\" class=\"cd\"/></g><rect x=\"222\" y=\"98\" width=\"98\" height=\"62\" rx=\"9\" class=\"ln\"/><rect x=\"232\" y=\"108\" width=\"40\" height=\"6\" rx=\"3\" fill=\"#FF9D3E\"/><rect x=\"232\" y=\"122\" width=\"70\" height=\"6\" rx=\"3\" class=\"cd\"/><rect x=\"232\" y=\"134\" width=\"56\" height=\"6\" rx=\"3\" class=\"cd\"/><rect x=\"232\" y=\"146\" width=\"36\" height=\"6\" rx=\"3\" class=\"cd\"/><rect x=\"332\" y=\"98\" width=\"100\" height=\"44\" rx=\"9\" class=\"ln\"/><rect x=\"342\" y=\"108\" width=\"40\" height=\"6\" rx=\"3\" fill=\"#35AFA0\"/><rect x=\"342\" y=\"122\" width=\"70\" height=\"6\" rx=\"3\" class=\"cd\"/><rect x=\"332\" y=\"150\" width=\"100\" height=\"54\" rx=\"9\" class=\"ln\"/><rect x=\"342\" y=\"160\" width=\"40\" height=\"6\" rx=\"3\" fill=\"#35AFA0\"/><rect x=\"342\" y=\"174\" width=\"74\" height=\"6\" rx=\"3\" class=\"cd\"/><rect x=\"342\" y=\"186\" width=\"52\" height=\"6\" rx=\"3\" class=\"cd\"/><rect x=\"112\" y=\"232\" width=\"16\" height=\"16\" rx=\"4\" class=\"ln\"/><path class=\"a-draw d2\" pathLength=\"1\" d=\"M115 240 l4 4 7 -8\" fill=\"none\" stroke=\"#35AFA0\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"138\" y=\"236\" width=\"130\" height=\"8\" rx=\"4\" class=\"ln\"/><rect x=\"112\" y=\"256\" width=\"16\" height=\"16\" rx=\"4\" class=\"ln\"/><path class=\"a-draw d3\" pathLength=\"1\" d=\"M115 264 l4 4 7 -8\" fill=\"none\" stroke=\"#35AFA0\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"138\" y=\"260\" width=\"104\" height=\"8\" rx=\"4\" class=\"ln\"/><rect x=\"112\" y=\"280\" width=\"16\" height=\"16\" rx=\"4\" class=\"ln\"/><rect x=\"138\" y=\"284\" width=\"118\" height=\"8\" rx=\"4\" class=\"ln\"/><circle cx=\"392\" cy=\"262\" r=\"28\" fill=\"none\" stroke-width=\"9\" class=\"sk-ln\"/><circle class=\"a-pop d4\" cx=\"392\" cy=\"262\" r=\"28\" fill=\"none\" stroke=\"#FF9D3E\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-dasharray=\"123 176\" transform=\"rotate(-90 392 262)\"/>",
+    "events": "<rect x=\"20\" y=\"20\" width=\"440\" height=\"300\" rx=\"20\" fill=\"#2B2D6B\"/><path class=\"a-sway\" style=\"transform-origin:90px 24px\" d=\"M74 24 L106 24 L190 262 L30 262 Z\" fill=\"#FFFFFF\" opacity=\".08\"/><path class=\"a-sway rev\" style=\"transform-origin:390px 24px\" d=\"M374 24 L406 24 L450 262 L290 262 Z\" fill=\"#FFFFFF\" opacity=\".08\"/><circle cx=\"90\" cy=\"28\" r=\"8\" fill=\"#FF9D3E\"/><circle cx=\"390\" cy=\"28\" r=\"8\" fill=\"#FF9D3E\"/><rect x=\"140\" y=\"46\" width=\"200\" height=\"106\" rx=\"10\" fill=\"#1B95BB\"/><g class=\"a-pop d1\"><circle cx=\"196\" cy=\"99\" r=\"20\" fill=\"#41448F\"/><circle cx=\"212\" cy=\"90\" r=\"14\" fill=\"#FF9D3E\"/><circle cx=\"209\" cy=\"111\" r=\"13\" fill=\"#35AFA0\"/></g><rect x=\"240\" y=\"88\" width=\"76\" height=\"10\" rx=\"5\" fill=\"#FFFFFF\"/><rect x=\"240\" y=\"106\" width=\"52\" height=\"7\" rx=\"3.5\" fill=\"#FFFFFF\" opacity=\".7\"/><rect x=\"60\" y=\"178\" width=\"360\" height=\"20\" rx=\"6\" fill=\"#454850\"/><rect x=\"222\" y=\"150\" width=\"36\" height=\"30\" rx=\"4\" fill=\"#DA5773\"/><circle cx=\"240\" cy=\"140\" r=\"9\" fill=\"#F6C59F\"/><g class=\"a-rise d1\"><circle cx=\"52\" cy=\"236\" r=\"13\" fill=\"#7C80D6\"/><path d=\"M32 274 a20 18 0 0 1 40 0 Z\" fill=\"#7C80D6\" opacity=\".8\"/></g><g class=\"a-rise d2\"><circle cx=\"94\" cy=\"236\" r=\"13\" fill=\"#1B95BB\"/><path d=\"M74 274 a20 18 0 0 1 40 0 Z\" fill=\"#1B95BB\" opacity=\".8\"/></g><g class=\"a-rise d3\"><circle cx=\"136\" cy=\"236\" r=\"13\" fill=\"#35AFA0\"/><path d=\"M116 274 a20 18 0 0 1 40 0 Z\" fill=\"#35AFA0\" opacity=\".8\"/></g><g class=\"a-rise d4\"><circle cx=\"178\" cy=\"236\" r=\"13\" fill=\"#FF9D3E\"/><path d=\"M158 274 a20 18 0 0 1 40 0 Z\" fill=\"#FF9D3E\" opacity=\".8\"/></g><g class=\"a-rise d1\"><circle cx=\"220\" cy=\"236\" r=\"13\" fill=\"#DA5773\"/><path d=\"M200 274 a20 18 0 0 1 40 0 Z\" fill=\"#DA5773\" opacity=\".8\"/></g><g class=\"a-rise d2\"><circle cx=\"262\" cy=\"236\" r=\"13\" fill=\"#7C80D6\"/><path d=\"M242 274 a20 18 0 0 1 40 0 Z\" fill=\"#7C80D6\" opacity=\".8\"/></g><g class=\"a-rise d3\"><circle cx=\"304\" cy=\"236\" r=\"13\" fill=\"#35AFA0\"/><path d=\"M284 274 a20 18 0 0 1 40 0 Z\" fill=\"#35AFA0\" opacity=\".8\"/></g><g class=\"a-rise d4\"><circle cx=\"346\" cy=\"236\" r=\"13\" fill=\"#1B95BB\"/><path d=\"M326 274 a20 18 0 0 1 40 0 Z\" fill=\"#1B95BB\" opacity=\".8\"/></g><g class=\"a-rise d1\"><circle cx=\"388\" cy=\"236\" r=\"13\" fill=\"#FF9D3E\"/><path d=\"M368 274 a20 18 0 0 1 40 0 Z\" fill=\"#FF9D3E\" opacity=\".8\"/></g><g class=\"a-rise d2\"><circle cx=\"430\" cy=\"236\" r=\"13\" fill=\"#DA5773\"/><path d=\"M410 274 a20 18 0 0 1 40 0 Z\" fill=\"#DA5773\" opacity=\".8\"/></g><g transform=\"rotate(-8 396 262)\" class=\"a-pop d4\"><rect x=\"336\" y=\"228\" width=\"128\" height=\"72\" rx=\"10\" fill=\"#FFFFFF\"/><rect x=\"336\" y=\"228\" width=\"10\" height=\"72\" rx=\"5\" fill=\"#FF9D3E\"/><rect x=\"356\" y=\"244\" width=\"56\" height=\"8\" rx=\"4\" fill=\"#41448F\"/><rect x=\"356\" y=\"260\" width=\"40\" height=\"6\" rx=\"3\" fill=\"#C9D3D1\"/><rect x=\"356\" y=\"274\" width=\"48\" height=\"6\" rx=\"3\" fill=\"#C9D3D1\"/><path d=\"M422 232 V296\" stroke=\"#C9D3D1\" stroke-width=\"2\" stroke-dasharray=\"4 4\"/><rect x=\"430\" y=\"244\" width=\"9\" height=\"9\" fill=\"#13201F\"/><rect x=\"442\" y=\"244\" width=\"9\" height=\"9\" fill=\"#13201F\"/><rect x=\"430\" y=\"256\" width=\"9\" height=\"9\" fill=\"#13201F\"/><rect x=\"448\" y=\"256\" width=\"9\" height=\"9\" fill=\"#13201F\"/><rect x=\"436\" y=\"268\" width=\"9\" height=\"9\" fill=\"#13201F\"/><rect x=\"448\" y=\"280\" width=\"9\" height=\"9\" fill=\"#13201F\"/><rect x=\"430\" y=\"280\" width=\"9\" height=\"9\" fill=\"#13201F\"/></g>",
+    "network": "<line x1=\"240\" y1=\"172\" x2=\"96\" y2=\"84\" stroke-width=\"3\" class=\"sk-ln\"/><line class=\"a-flow\" x1=\"240\" y1=\"172\" x2=\"96\" y2=\"84\" stroke=\"#1B95BB\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"240\" y1=\"172\" x2=\"384\" y2=\"74\" stroke-width=\"3\" class=\"sk-ln\"/><line class=\"a-flow\" x1=\"240\" y1=\"172\" x2=\"384\" y2=\"74\" stroke=\"#1B95BB\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"240\" y1=\"172\" x2=\"420\" y2=\"196\" stroke-width=\"3\" class=\"sk-ln\"/><line class=\"a-flow\" x1=\"240\" y1=\"172\" x2=\"420\" y2=\"196\" stroke=\"#1B95BB\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"240\" y1=\"172\" x2=\"328\" y2=\"286\" stroke-width=\"3\" class=\"sk-ln\"/><line class=\"a-flow\" x1=\"240\" y1=\"172\" x2=\"328\" y2=\"286\" stroke=\"#1B95BB\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"240\" y1=\"172\" x2=\"128\" y2=\"282\" stroke-width=\"3\" class=\"sk-ln\"/><line class=\"a-flow\" x1=\"240\" y1=\"172\" x2=\"128\" y2=\"282\" stroke=\"#1B95BB\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"240\" y1=\"172\" x2=\"58\" y2=\"182\" stroke-width=\"3\" class=\"sk-ln\"/><line class=\"a-flow\" x1=\"240\" y1=\"172\" x2=\"58\" y2=\"182\" stroke=\"#1B95BB\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"240\" cy=\"172\" r=\"44\" class=\"cd\" stroke=\"#FF9D3E\" stroke-width=\"4\"/><g class=\"a-pop d1\"><circle cx=\"230\" cy=\"168\" r=\"15\" fill=\"#41448F\"/><circle cx=\"246\" cy=\"160\" r=\"12\" fill=\"#FF9D3E\"/><circle cx=\"244\" cy=\"180\" r=\"11\" fill=\"#35AFA0\"/></g><g class=\"a-pop d1\"><circle cx=\"96\" cy=\"84\" r=\"27\" fill=\"#41448F\"/><circle cx=\"96\" cy=\"78\" r=\"7.5\" fill=\"#FFFFFF\"/><path d=\"M83 99 a13 11 0 0 1 26 0 Z\" fill=\"#FFFFFF\"/></g><g class=\"a-pop d2\"><circle cx=\"384\" cy=\"74\" r=\"27\" fill=\"#DA5773\"/><circle cx=\"384\" cy=\"68\" r=\"7.5\" fill=\"#FFFFFF\"/><path d=\"M371 89 a13 11 0 0 1 26 0 Z\" fill=\"#FFFFFF\"/></g><g class=\"a-pop d3\"><circle cx=\"420\" cy=\"196\" r=\"27\" fill=\"#35AFA0\"/><circle cx=\"420\" cy=\"190\" r=\"7.5\" fill=\"#FFFFFF\"/><path d=\"M407 211 a13 11 0 0 1 26 0 Z\" fill=\"#FFFFFF\"/></g><g class=\"a-pop d4\"><circle cx=\"328\" cy=\"286\" r=\"27\" fill=\"#FF9D3E\"/><circle cx=\"328\" cy=\"280\" r=\"7.5\" fill=\"#FFFFFF\"/><path d=\"M315 301 a13 11 0 0 1 26 0 Z\" fill=\"#FFFFFF\"/></g><g class=\"a-pop d5\"><circle cx=\"128\" cy=\"282\" r=\"27\" fill=\"#1B95BB\"/><circle cx=\"128\" cy=\"276\" r=\"7.5\" fill=\"#FFFFFF\"/><path d=\"M115 297 a13 11 0 0 1 26 0 Z\" fill=\"#FFFFFF\"/></g><g class=\"a-pop d1\"><circle cx=\"58\" cy=\"182\" r=\"27\" fill=\"#EF814A\"/><circle cx=\"58\" cy=\"176\" r=\"7.5\" fill=\"#FFFFFF\"/><path d=\"M45 197 a13 11 0 0 1 26 0 Z\" fill=\"#FFFFFF\"/></g><g class=\"a-rise d2\"><rect x=\"136\" y=\"38\" width=\"112\" height=\"40\" rx=\"14\" class=\"cd\"/><path d=\"M150 76 l-8 12 18 -12z\" class=\"cd\"/><rect x=\"150\" y=\"50\" width=\"70\" height=\"7\" rx=\"3.5\" class=\"ik\"/><rect x=\"150\" y=\"62\" width=\"48\" height=\"6\" rx=\"3\" class=\"ln\"/></g><g class=\"a-rise d3\"><rect x=\"262\" y=\"22\" width=\"96\" height=\"36\" rx=\"14\" class=\"cd\"/><path d=\"M340 56 l12 10 -2 -12z\" class=\"cd\"/><rect x=\"276\" y=\"33\" width=\"60\" height=\"7\" rx=\"3.5\" class=\"ik\"/><rect x=\"276\" y=\"44\" width=\"40\" height=\"6\" rx=\"3\" class=\"ln\"/></g><g class=\"a-rise d4\"><rect x=\"376\" y=\"244\" width=\"78\" height=\"52\" rx=\"8\" class=\"cd\"/><path d=\"M378 248 l37 26 37 -26\" fill=\"none\" stroke=\"#FF9D3E\" stroke-width=\"3\" stroke-linejoin=\"round\"/></g><g class=\"a-rise d5\"><rect x=\"22\" y=\"236\" width=\"80\" height=\"34\" rx=\"14\" class=\"cd\"/><rect x=\"34\" y=\"246\" width=\"52\" height=\"6\" rx=\"3\" class=\"ik\"/><rect x=\"34\" y=\"256\" width=\"34\" height=\"6\" rx=\"3\" class=\"ln\"/></g>"
+  },
+  "SHOWCASE": [
+    {
+      "cap": "brand",
+      "tint": "o",
+      "line": "Positioning, identity and campaigns that turn attention into pipeline."
+    },
+    {
+      "cap": "tech",
+      "tint": "b",
+      "line": "Websites, apps and systems your team can run, built to launch and to last."
+    },
+    {
+      "cap": "media",
+      "tint": "p",
+      "line": "Podcasts, video and founder content, produced properly and put to work."
+    },
+    {
+      "cap": "pr",
+      "tint": "i",
+      "line": "Media relations and thought leadership that earn attention and protect trust."
+    },
+    {
+      "cap": "fos",
+      "tint": "t",
+      "line": "Goals, hiring, CRM and automation, so the company runs without every decision routing through you."
+    },
+    {
+      "cap": "events",
+      "tint": "c",
+      "line": "From concept and venue to production and event day, with one team accountable."
+    },
+    {
+      "cap": "network",
+      "tint": "b",
+      "line": "Creators, publishers and communities that put your story where your audience already is."
+    }
+  ],
+  "CAP_ICON_PATHS": {
+    "brand": "<circle cx=\"12\" cy=\"12\" r=\"8\"/><circle cx=\"12\" cy=\"12\" r=\"3.5\"/><path d=\"M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3\"/>",
+    "tech": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2.5\"/><path d=\"M3 8.5h18M9.5 12.5l-2 2 2 2M14.5 12.5l2 2-2 2\"/>",
+    "media": "<rect x=\"9\" y=\"2.5\" width=\"6\" height=\"11.5\" rx=\"3\"/><path d=\"M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7\"/>",
+    "pr": "<path d=\"M4 10v4l3 .5L17 19V5L7 9.5z\"/><path d=\"M7 14.5L8.2 19h3l-1-4.2M20.5 9.5v5\"/>",
+    "fos": "<rect x=\"3\" y=\"3\" width=\"7.5\" height=\"7.5\" rx=\"2\"/><rect x=\"13.5\" y=\"3\" width=\"7.5\" height=\"7.5\" rx=\"2\"/><rect x=\"3\" y=\"13.5\" width=\"7.5\" height=\"7.5\" rx=\"2\"/><path d=\"M14 17.5l2.2 2.2 4.3-4.7\"/>",
+    "events": "<path d=\"M4 6h16v4a2 2 0 0 0 0 4v4H4v-4a2 2 0 0 0 0-4z\"/><path d=\"M14.5 6.5v11\" stroke-dasharray=\"2 2.2\"/>",
+    "network": "<circle cx=\"12\" cy=\"12\" r=\"2.6\"/><circle cx=\"5\" cy=\"5.5\" r=\"2.1\"/><circle cx=\"19\" cy=\"5.5\" r=\"2.1\"/><circle cx=\"5\" cy=\"18.5\" r=\"2.1\"/><circle cx=\"19\" cy=\"18.5\" r=\"2.1\"/><path d=\"M6.6 7l3.5 3.3M17.4 7l-3.5 3.3M6.6 17l3.5-3.3M17.4 17l-3.5-3.3\"/>"
+  },
+  "CAP_ICON_COLOR": {
+    "brand": "#FF9D3E",
+    "tech": "#1B95BB",
+    "media": "#DA5773",
+    "pr": "#6B6FCB",
+    "fos": "#35AFA0",
+    "events": "#EF814A",
+    "network": "#2E9FD0"
+  },
+  "MK_THEMES": {
+    "sunset": [
+      "Sunset",
+      "#FF9D3E",
+      "#DA5773"
+    ],
+    "indigo": [
+      "Indigo",
+      "#41448F",
+      "#1B95BB"
+    ],
+    "ocean": [
+      "Ocean",
+      "#1B95BB",
+      "#35AFA0"
+    ],
+    "berry": [
+      "Berry",
+      "#DA5773",
+      "#41448F"
+    ],
+    "ink": [
+      "Ink",
+      "#13201F",
+      "#454850"
+    ]
+  },
+  "MK_PLATFORMS": [
+    "Instagram",
+    "YouTube",
+    "YouTube Shorts",
+    "Moj",
+    "Josh",
+    "ShareChat",
+    "X",
+    "LinkedIn",
+    "Facebook",
+    "Snapchat",
+    "Threads",
+    "Podcast",
+    "Newsletter"
+  ],
+  "MK_NICHES": [
+    "Fashion",
+    "Beauty",
+    "Tech",
+    "Finance",
+    "Food",
+    "Travel",
+    "Fitness",
+    "Comedy",
+    "Education",
+    "Gaming",
+    "Lifestyle",
+    "Parenting",
+    "Business",
+    "Music",
+    "Auto"
+  ],
+  "MK_DELIVERABLES": [
+    "Instagram Reel",
+    "Instagram Story (set of 3)",
+    "Instagram carousel post",
+    "YouTube integration (60–90 sec)",
+    "YouTube dedicated video",
+    "YouTube Short",
+    "UGC video (no posting)",
+    "Event appearance",
+    "Podcast mention",
+    "Newsletter feature"
+  ],
+  "MK_EMPTY": {
+    "v": 1,
+    "n": "",
+    "h": "",
+    "ni": "",
+    "c": "",
+    "b": "",
+    "th": "sunset",
+    "p": [
+      [
+        "Instagram",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "a": {
+      "ci": "",
+      "ag": "",
+      "g": ""
+    },
+    "r": [
+      [
+        "Instagram Reel",
+        ""
+      ]
+    ],
+    "ro": false,
+    "br": "",
+    "e": "",
+    "ph": "",
+    "l": ""
+  },
+  "AFF_TARGETS": [
+    [
+      "/",
+      "Home page"
+    ],
+    [
+      "/tools",
+      "Free tools"
+    ],
+    [
+      "/creators",
+      "Media kit maker"
+    ],
+    [
+      "/tools/invite",
+      "Event invite maker"
+    ],
+    [
+      "/tools/whatsapp",
+      "WhatsApp QR maker"
+    ],
+    [
+      "/start-a-project",
+      "Start a Project"
+    ]
+  ],
+  "REF_STATUSES": [
+    "Lead",
+    "Proposal sent",
+    "Won",
+    "Commission paid",
+    "Not converted"
+  ],
+  "WL_STATUSES": [
+    "Received",
+    "Scoping",
+    "Quoted",
+    "In progress",
+    "Delivered",
+    "On hold"
+  ],
+  "WL_READY": [
+    [
+      "brand",
+      "Brand identity, decks, campaign strategy, social media management, performance marketing, CRM setup"
+    ],
+    [
+      "tech",
+      "Websites, landing pages, e-commerce, web and mobile apps, AI automation, maintenance"
+    ],
+    [
+      "media",
+      "Podcast production and editing, video editing, content repurposing, founder ghostwriting"
+    ],
+    [
+      "pr",
+      "Press releases, media kits and reputation monitoring. Media outreach runs under your brand where agreed."
+    ],
+    [
+      "fos",
+      "SOPs, CRM and sales operations, recruitment coordination, automation"
+    ],
+    [
+      "events",
+      "Event planning, production coordination, ticketing and registration. On-site teams can wear your branding."
+    ],
+    [
+      "network",
+      "Creator sourcing, distribution campaigns and community activation"
+    ]
+  ],
+  "TOOL_ICONS": {
+    "kit": "<rect x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"2.5\"/><circle cx=\"12\" cy=\"9.5\" r=\"2.6\"/><path d=\"M8 16.5c.8-1.9 2.2-2.8 4-2.8s3.2.9 4 2.8\"/>",
+    "invite": "<rect x=\"3\" y=\"5\" width=\"18\" height=\"15\" rx=\"2.5\"/><path d=\"M3 9.5h18M8 3v4M16 3v4M9 14.5l2 2 4-4\"/>",
+    "health": "<path d=\"M3 12h4l2.5-5.5 4 11 2.5-5.5H21\"/>",
+    "refer": "<circle cx=\"9\" cy=\"8\" r=\"3.2\"/><path d=\"M3.5 19.5c.7-3.3 2.8-5 5.5-5s4.8 1.7 5.5 5M18 8v6M15 11h6\"/>",
+    "layers": "<path d=\"M12 3.5l8.5 4.7L12 13 3.5 8.2z\"/><path d=\"M3.5 12.3L12 17l8.5-4.7M3.5 16.3L12 21l8.5-4.7\"/>",
+    "qr": "<rect x=\"3.5\" y=\"3.5\" width=\"6\" height=\"6\" rx=\"1\"/><rect x=\"14.5\" y=\"3.5\" width=\"6\" height=\"6\" rx=\"1\"/><rect x=\"3.5\" y=\"14.5\" width=\"6\" height=\"6\" rx=\"1\"/><path d=\"M14.5 14.5h2.5v2.5M20.5 14.5v6h-3M14.5 20.5v-2\"/>"
+  },
+  "TOOLS": [
+    {
+      "k": "health",
+      "c": "#41448F",
+      "name": "Growth Health Check",
+      "for": "For founders and business owners",
+      "line": "Score your brand, website, content, PR, operations, events and partnerships in 14 questions, and get your three priorities.",
+      "href": "#/health-check"
+    },
+    {
+      "k": "kit",
+      "c": "#FF9D3E",
+      "name": "Media kit maker",
+      "for": "For creators and influencers",
+      "line": "A professional media kit and rate card to send to brands. Download it or share it as a link.",
+      "href": "#/creators"
+    },
+    {
+      "k": "invite",
+      "c": "#DA5773",
+      "name": "Event invite maker",
+      "for": "For event hosts and organisers",
+      "line": "A beautiful invite page with WhatsApp RSVP and add-to-calendar buttons. Share one link with every guest.",
+      "href": "#/tools/invite"
+    },
+    {
+      "k": "qr",
+      "c": "#35AFA0",
+      "name": "WhatsApp QR maker",
+      "for": "For shops and small businesses",
+      "line": "A click-to-chat link and a printable QR poster, so customers can message you in one scan.",
+      "href": "#/tools/whatsapp"
+    }
+  ],
+  "HC_QUESTIONS": [
+    [
+      "brand",
+      "How quickly can a stranger understand what you do and who it’s for?",
+      [
+        "They can’t, really",
+        "Only after a long explanation",
+        "Mostly, within a minute",
+        "Instantly, and it’s consistent everywhere"
+      ]
+    ],
+    [
+      "brand",
+      "How do new customers or leads mostly find you?",
+      [
+        "We don’t have a reliable source",
+        "Word of mouth only",
+        "One or two channels we run regularly",
+        "Several channels we track and improve"
+      ]
+    ],
+    [
+      "tech",
+      "What does your website do for the business?",
+      [
+        "We don’t have one",
+        "It exists but rarely brings enquiries",
+        "It brings some enquiries",
+        "It’s a steady, tracked source of leads or sales"
+      ]
+    ],
+    [
+      "tech",
+      "How much routine work is automated, such as forms, follow-ups, invoices and reports?",
+      [
+        "None",
+        "A little",
+        "Some of it",
+        "Most of it"
+      ]
+    ],
+    [
+      "media",
+      "How often do you publish content, such as posts, videos or podcasts?",
+      [
+        "Rarely or never",
+        "When we find time",
+        "Most weeks",
+        "On a planned calendar"
+      ]
+    ],
+    [
+      "media",
+      "Does your founder or leadership have a visible public voice?",
+      [
+        "No",
+        "Occasionally",
+        "Regularly, on one platform",
+        "Consistently, across platforms"
+      ]
+    ],
+    [
+      "pr",
+      "When someone searches your name or brand, what do they find?",
+      [
+        "Little or nothing",
+        "Only our own pages",
+        "Some third-party mentions",
+        "Credible coverage, reviews and profiles"
+      ]
+    ],
+    [
+      "pr",
+      "Do you know what people and AI search tools say about your brand?",
+      [
+        "No idea",
+        "We check now and then",
+        "We watch some channels",
+        "We monitor and respond regularly"
+      ]
+    ],
+    [
+      "fos",
+      "How are leads and customers tracked?",
+      [
+        "In people’s heads or chats",
+        "In spreadsheets",
+        "In a CRM, used unevenly",
+        "In a CRM everyone uses, with clear follow-ups"
+      ]
+    ],
+    [
+      "fos",
+      "How documented are your key processes and roles?",
+      [
+        "Not at all",
+        "A few notes",
+        "Main processes are written down",
+        "Documented, trained and reviewed"
+      ]
+    ],
+    [
+      "events",
+      "How do you use events, webinars or meetups?",
+      [
+        "We don’t",
+        "We attend others’ events now and then",
+        "We host occasionally",
+        "We run a planned calendar that brings leads"
+      ]
+    ],
+    [
+      "events",
+      "After an event, what happens to the people you met?",
+      [
+        "Nothing structured",
+        "We connect on social media",
+        "We send a follow-up",
+        "They go into the CRM with a follow-up plan"
+      ]
+    ],
+    [
+      "network",
+      "Do creators, communities or partners promote you?",
+      [
+        "No",
+        "Occasionally, unplanned",
+        "A few ongoing partners",
+        "A managed creator and partner programme"
+      ]
+    ],
+    [
+      "network",
+      "Do you have a referral or partner programme?",
+      [
+        "No",
+        "Informal thank-yous",
+        "A simple referral offer",
+        "A tracked programme with rewards"
+      ]
+    ]
+  ],
+  "HC_ADVICE": {
+    "brand": [
+      "Start with positioning and one clear message, so every channel says the same thing.",
+      [
+        "Brand Strategy & Positioning",
+        "Brand Messaging & Storytelling"
+      ]
+    ],
+    "tech": [
+      "Make your website a tracked source of enquiries, and automate the repetitive work around it.",
+      [
+        "Corporate & Business Website Development",
+        "AI Integration & Business Automation"
+      ]
+    ],
+    "media": [
+      "Build a steady content rhythm around your founder’s expertise, and get more from every recording.",
+      [
+        "Founder Content & LinkedIn Ghostwriting",
+        "Content Repurposing & Content Day"
+      ]
+    ],
+    "pr": [
+      "Earn third-party credibility, and keep watch over how your brand is described, including in AI search.",
+      [
+        "Founder & Executive PR",
+        "AI Search Visibility Monitoring"
+      ]
+    ],
+    "fos": [
+      "Put every lead and customer in one system with clear follow-ups, and write down how work gets done.",
+      [
+        "CRM Setup & Marketing Automation",
+        "SOP & Process Documentation"
+      ]
+    ],
+    "events": [
+      "Use events to meet the right buyers, and turn every contact into a tracked follow-up.",
+      [
+        "End-to-End Event Management",
+        "Event Reporting & Post-Event Follow-up"
+      ]
+    ],
+    "network": [
+      "Let creators, communities and partners carry your story, with tracking on every placement.",
+      [
+        "Creator & Publisher Distribution",
+        "Affiliate & Referral Marketing"
+      ]
+    ]
+  },
+  "ASK_SUGGESTIONS": [
+    "Which services do I need to launch a startup?",
+    "मुझे अपने बिज़नेस के लिए वेबसाइट और मार्केटिंग चाहिए",
+    "How does the affiliate program work?",
+    "What happens after I send an enquiry?"
+  ],
+  "HI_MAP": {
+    "वेबसाइट": "website",
+    "मार्केटिंग": "marketing",
+    "इवेंट": "event",
+    "पॉडकास्ट": "podcast",
+    "ऐप": "app",
+    "वीडियो": "video",
+    "ब्रांड": "brand",
+    "लोगो": "logo",
+    "भर्ती": "recruitment",
+    "हायरिंग": "hiring",
+    "कीमत": "price",
+    "दाम": "price",
+    "खर्च": "cost",
+    "प्रचार": "promotion",
+    "इन्फ्लुएंसर": "influencer",
+    "कम्युनिटी": "community",
+    "एफिलिएट": "affiliate"
+  },
+  "STAGES": [
+    "New",
+    "Contacted",
+    "Proposal sent",
+    "Won",
+    "Lost"
+  ],
+  "STATUS_TEXT": {
+    "new": "New",
+    "contacted": "Contacted",
+    "pending": "Awaiting payment",
+    "approved": "Approved",
+    "declined": "Declined",
+    "removed": "Removed",
+    "active": "Active member"
+  },
+  "FIELD_LABELS": {
+    "code": "Partner code",
+    "partnerRef": "Referred by",
+    "where": "Shares on",
+    "link": "Link",
+    "volume": "Projects per month",
+    "notes": "Notes",
+    "plan": "Plan",
+    "working": "Working on",
+    "interests": "Interests",
+    "linkedin": "LinkedIn",
+    "shortlist": "Shortlisted services",
+    "company": "Company",
+    "role": "Role",
+    "email": "Email",
+    "phone": "Phone",
+    "website": "Website",
+    "needs": "Needs",
+    "programme": "Programme",
+    "description": "Project",
+    "timeline": "Timeline",
+    "budget": "Budget",
+    "source": "Heard via",
+    "consentUpdates": "Email updates",
+    "consentWhatsApp": "WhatsApp contact",
+    "city": "City",
+    "partnerType": "Partner type",
+    "availability": "Availability",
+    "capabilities": "Capabilities",
+    "portfolio": "Portfolio",
+    "rate": "Rate range",
+    "audience": "Audience",
+    "audiences": "Audiences"
+  }
+}

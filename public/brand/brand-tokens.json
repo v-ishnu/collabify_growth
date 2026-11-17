@@ -1,0 +1,56 @@
+{
+  "note": "Design tokens used on the Collabify Growth website. Light theme first, dark theme second.",
+  "fonts": {
+    "display": "Bricolage Grotesque (Google Fonts, weights 500-800)",
+    "body": "Instrument Sans (Google Fonts, weights 400-700)"
+  },
+  "logo_palette": {
+    "orange": "#FF9D3E",
+    "indigo": "#41448F",
+    "blue": "#1B95BB",
+    "teal": "#35AFA0",
+    "pink": "#DA5773",
+    "coral": "#EF814A",
+    "slate": "#454850"
+  },
+  "light": {
+    "bg": "#F4F7F6",
+    "surface": "#FFFFFF",
+    "surface_2": "#E7F0EE",
+    "ink": "#13201F",
+    "muted": "#4A5B5C",
+    "line": "#D3DEDC",
+    "line_strong": "#A9BEBB",
+    "brand": "#0E4F55",
+    "brand_deep": "#0A3B40",
+    "accent": "#FF9D3E",
+    "accent_hover": "#F28A24",
+    "on_accent": "#1A1405",
+    "danger": "#A8261D",
+    "ok": "#1E6E47"
+  },
+  "dark": {
+    "bg": "#0B1516",
+    "surface": "#112022",
+    "surface_2": "#162A2C",
+    "ink": "#E6EFED",
+    "muted": "#A3B6B4",
+    "line": "#22393B",
+    "line_strong": "#3A5655",
+    "brand": "#0F5359",
+    "brand_text": "#86CFCA",
+    "accent": "#FF9D3E"
+  },
+  "radius": {
+    "small": "8px",
+    "default": "12px",
+    "large": "22px",
+    "buttons": "999px"
+  },
+  "type_scale": {
+    "h1": "clamp(2.4rem,5.4vw,4.6rem)",
+    "h2": "clamp(1.8rem,3.4vw,2.8rem)",
+    "h3": "1.3rem",
+    "body": "17px / 1.6"
+  }
+}
