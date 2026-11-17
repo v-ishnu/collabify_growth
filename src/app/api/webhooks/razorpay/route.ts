@@ -202,6 +202,11 @@ export async function POST(request: Request) {
           throw new Error(`Membership activation failed: ${memErr.message}`);
         }
 
+        await admin
+          .from('community_applications')
+          .update({ status: 'approved' })
+          .eq('user_id', userId);
+
         if (
           targetEmail &&
           (eventType === 'subscription.activated' || eventType === 'subscription.resumed')

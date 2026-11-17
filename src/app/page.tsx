@@ -12,7 +12,6 @@ import { estimateReadMins } from '@/lib/markdown';
 import { getPublishedPosts } from '@/lib/posts/public';
 import { CapIcon, ToolIcon } from '@/components/common/Icons';
 import { CtaBand } from '@/components/common/CtaBand';
-import { ProofSection } from '@/components/common/ProofSection';
 import { ShowcaseCarousel } from '@/features/home/ShowcaseCarousel';
 import { CapabilityMarquee } from '@/features/home/CapabilityMarquee';
 import { ProgrammeComposer } from '@/features/home/ProgrammeComposer';

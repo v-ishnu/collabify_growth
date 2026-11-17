@@ -2,6 +2,7 @@ import { z } from 'zod';
 import { apiError, apiOk, assertSameOrigin } from '@/lib/api/response';
 import { checkRateLimit } from '@/lib/rate-limit';
 import { getRazorpayClient, verifyRazorpaySubscriptionSignature } from '@/lib/razorpay';
+import { getSupabaseAdminClient } from '@/lib/supabase/admin';
 import { getSessionUserAndProfile } from '@/lib/supabase/server';
 import { writeAuditLog } from '@/lib/audit';
 
@@ -71,6 +72,37 @@ export async function POST(request: Request) {
       }
     }
 
+    const admin = getSupabaseAdminClient();
+    if (admin) {
+      const { data: app } = await admin
+        .from('community_applications')
+        .select('*')
+        .eq('user_id', user.id)
+        .maybeSingle();
+
+      await admin.from('memberships').upsert(
+        {
+          user_id: user.id,
+          plan: parsed.data.plan,
+          status: 'active',
+          razorpay_subscription_id: parsed.data.razorpay_subscription_id,
+          display_name: app?.name || user.email || 'Member',
+          role: app?.role ?? null,
+          company: app?.company ?? null,
+          city: app?.city ?? null,
+          linkedin: app?.linkedin ?? null,
+          interests: app?.interests ?? [],
+          working_on: app?.working_on ?? null,
+        },
+        { onConflict: 'user_id' },
+      );
+
+      await admin
+        .from('community_applications')
+        .update({ status: 'approved' })
+        .eq('user_id', user.id);
+    }
+
     await writeAuditLog({
       actorId: user.id,
       action: 'payment.checkout_verified',
@@ -83,7 +115,7 @@ export async function POST(request: Request) {
       request,
     });
 
-    return apiOk({ pendingWebhookSettlement: true });
+    return apiOk({ verified: true, active: true });
   } catch (err) {
     console.error('[api/payments/razorpay/verify] error:', err);
     return apiError('INTERNAL_ERROR', 'Unable to verify payment signature.', 500);
