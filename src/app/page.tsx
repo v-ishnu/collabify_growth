@@ -311,7 +311,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <ProofSection />
+      {/* <ProofSection /> */}
 
       <section className="sec sec-alt">
         <div className="wrap">

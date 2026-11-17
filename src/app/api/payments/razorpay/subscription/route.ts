@@ -56,10 +56,10 @@ export async function POST(request: Request) {
         .maybeSingle(),
     ]);
 
-    if (!app || app.status !== 'approved') {
+    if (!app || app.status === 'declined' || app.status === 'removed') {
       return apiError(
         'FORBIDDEN',
-        'An approved community application is required before checkout.',
+        'A valid community application is required before checkout.',
         403,
       );
     }
